@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: YeECvnFAxnwb5cC1Cau6uA
+! Checksum: NWLYBce4PZa/CJPsW7il1A
 ! Title: 自用去广告Adblock规则
-! Version: 20250629131809
-! Last modified: 2025-06-29 13:18:09
-! Total Count: 8925
+! Version: 20250705234410
+! Last modified: 2025-07-05 23:44:10
+! Total Count: 8926
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -3437,6 +3437,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com:19819/js/*/f*.js?v=
 .com:26579/*/*.json
 .com:28816/*js?v=17$third-party
+.com:8*/mj*/$third-party
 .com:80*/cc/*?is_not=$third-party
 .com:80*/d/*?c=*&$third-party,script
 .com:80*/sc/*?*=$third-party
@@ -6748,8 +6749,8 @@ peachring.com##.border:has(.grid):not([id])
 perfectgirls.xxx,hentaihaven.xxx,hentai.tv,animeidhentai.com,hanime.tv##iframe[src^="https://a.adtng.com/"]
 perfectgirls24.com##[class^="bb_"]
 php?ad=
-piaotianxiaoshuo.com,yebiquge.com,zhaobiquge.com##^script:has-text(hm.baidu.com)
-piaotianxiaoshuo.com,yebiquge.com,zhaobiquge.com##script:has-text(hm.baidu.com)
+piaotianxiaoshuo.com,vipbiquge.com,yebiquge.com,zhaobiquge.com##^script:has-text(hm.baidu.com)
+piaotianxiaoshuo.com,vipbiquge.com,yebiquge.com,zhaobiquge.com##script:has-text(hm.baidu.com)
 picnob.com,pixwox.com##.ah-box
 pixiv.net##._illust-upload + div[style*="968px;"][style*="170px;"]
 pixiv.net##._premium-lead-function-banner
@@ -8371,7 +8372,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 ||kpic.pbaiyho.cn^$third-party
 ||kpm.jhzpgw.com^
 ||kraapmanmb.com^
-||ks.ckyun.com.cn^$domain=123864.com|123865.com|123866.com|123pan.cn|123pan.com
+||ks.ckyun.com.cn^$domain=123684.com|123864.com|123865.com|123866.com|123912.com|123957.com|123pan.cn|123pan.com
 ||ks.ferlytc.com^$third-party
 ||kscmt.cn^
 ||kszc.j1evtmx.xyz^
@@ -8738,7 +8739,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 ||u9axpzf50.com^
 ||udajswf.cn^
 ||ug.baidu.com^
-||umini.shujupie.com^$domain=123864.com|123865.com|123866.com|123pan.cn|123pan.com
+||umini.shujupie.com^$domain=123684.com|123864.com|123865.com|123866.com|123912.com|123957.com|123pan.cn|123pan.com
 ||umphek.com^
 ||umtpopxcsedc.cdnvideo*.com$third-party
 ||un.salangane.asia^
