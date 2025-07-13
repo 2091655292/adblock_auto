@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: EbMe5PjlEh/R62pPTyVrhg
+! Checksum: qYx0Lo5ZfzGS8xdcMyXa+w
 ! Title: 自用去广告Adblock规则
-! Version: 20250709230337
-! Last modified: 2025-07-09 23:03:37
-! Total Count: 8926
+! Version: 20250713231117
+! Last modified: 2025-07-13 23:11:17
+! Total Count: 8932
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -1815,6 +1815,7 @@
 ##.synopsisAd
 ##.tads
 ##.td-a-rec
+##.telegram-chat > .tg-holder
 ##.textadv
 ##.thumb-ad
 ##.thumb-nat-ad
@@ -2317,6 +2318,7 @@
 ##a[href^="http://googleads.g.doubleclick.net/pcs/click"]
 ##a[href^="http://intent.bingads.com/"]
 ##a[href^="http://s.73xx.icu/xgmn"]
+##a[href^="http://www.hxc888.vip"]
 ##a[href^="http://www.lovetoytw.com/"][onclick]
 ##a[href^="https://a.candyai.love/"]
 ##a[href^="https://ads."][target="_blank"]
@@ -2335,6 +2337,7 @@
 ##a[href^="https://igt17.net"]
 ##a[href^="https://l.hyenadata.com"]
 ##a[href^="https://mnwkcf.pojuko.buzz"]
+##a[href^="https://porncamtab.com/xrealgirl_live"]
 ##a[href^="https://ra10.xyz/"]
 ##a[href^="https://s7kc.com"]
 ##a[href^="https://sw34d.net"]
@@ -5072,10 +5075,10 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1amateurporn.com##[class^="native-"]:has([real-href*="/safu/safu.php?"])
 1amateurporn.com##img[src*="/safu/safu.php?"]
 1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"],body[style^="padding"] > [style*="130px"],img[width="30"][height="60"]
-1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,speechhearing.net,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
-1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
-1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,speechhearing.net,xcmv.cc,yhdm28.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
-1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,speechhearing.net,xcmv.cc,yhdm28.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
+1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,speechhearing.net,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
+1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,txtduo.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
+1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,xcmv.cc,yhdm28.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
+1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,xcmv.cc,yhdm28.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
 1kans.net##.content > div[id]:has(img[style^="width:100%"])
 1kans.net##.content > div[id]:has(textarea)
 1kans.net##^script:has-text(s.parentNode.insertBefore)
@@ -6929,6 +6932,7 @@ rapidtai.com,taiav.com,taimadou.com,taisinba.com##.movie-card:has(img[alt*="廣�
 rapidtai.com,taiav.com,taimadou.com,taisinba.com##.tai-box-mobile
 rapidtai.com,taiav.com,taimadou.com,taisinba.com##.top-phonehome
 rapidtai.com,taiav.com,taimadou.com,taisinba.com##button[onclick*="this.parentNode.parentNode.removeChild"]
+redgifs.com##div[class*="liveAdButton"]
 renqixiaoshuo.net##body > div:has([style^="left:"][style*="0"][style$="%;"])
 renren.pro##[class^="adj"],a[target="_blank"] > img[src$=".gif"]
 rockmods.net,rockmods.com##^script:has-text(AdBlock)
@@ -6974,6 +6978,8 @@ sexporn.hair##iframe[src^="//cliv"]
 sexygirl.cc##.overflow-auto:has(script[src$="/invoke.js"])
 sexygirl.cc##.overflow-auto:has(script[src*="/ad-provider.js"])
 sexygirl.cc##.overflow-auto:has(script[src*="jads"])
+shenmavod.net##div.fetch-image:not(.cover)
+shenmavod.net##div.my-2.grid
 shushudu.com##[style*="width:"][style*="100%"],[style*="width:"][style*="99%"],[width*="99%"],[width*="100%"],div[class][style*="display: block;"][style*="131px;"],div[class][style*="width: 100%;"][style*="131px;"],div[class][style*="z-index: 2147483646;"][style*="131px"],div[class][style*="position: fixed;"][style*="131px"]
 shzsmy.net##div[style="margin:0 auto;"] 
 shzsmy.net,jjdy8.cc##.tp_advertising
