@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: qYx0Lo5ZfzGS8xdcMyXa+w
+! Checksum: sAohmL6DDuYIw6deYvExLQ
 ! Title: 自用去广告Adblock规则
-! Version: 20250713231117
-! Last modified: 2025-07-13 23:11:17
-! Total Count: 8932
+! Version: 20250719120528
+! Last modified: 2025-07-19 12:05:28
+! Total Count: 8935
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -4717,6 +4717,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 /static/resources/*/*.gif$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-daima.club|18comic-dwo.cc|18comic-erdtree.xyz|18comic-gquu.vip|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic-zzz.one|jmcomic-zzz.org|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
 /static/resources/lp.php$domain=18-comic.work|18-comicblade.art|18-comicblade.club|18-comicblade.org|18-comicblade.xyz|18-comicfreedom.org|18-comicfreedom.xyz|18-comicstellar.art|18-comicstellar.xyz|18comic-daima.club|18comic-dwo.cc|18comic-erdtree.xyz|18comic-gquu.vip|18comic.org|18comic.vip|jm-comic1.cc|jm-comic2.cc|jmcomic-zzz.one|jmcomic-zzz.org|jmcomic.me|jmcomic1.city|jmcomic1.group|jmcomic1.me|jmcomic1.win|jmcomic2.me
 /static/xbiquge/commondj*.js
+/static/xbiquge/wap.js?v=$~third-party,script
 /static/xg/tbad.js
 /static/zz*.js?t=$third-party
 /staticjs/float*.js
@@ -6921,6 +6922,8 @@ qbxs.com##div.image-container
 qidiantu.com###ad-slot
 qinav.com##.b300
 qinav.com##div[id^="qinav_b"]
+qingqingxs.top,txtduo.app,txtduo.cn,txtduo.com,txtduo.live,txtduo.org,xfreehd.com##^script:has-text(Math.random)
+qingqingxs.top,txtduo.app,txtduo.cn,txtduo.com,txtduo.live,txtduo.org,xfreehd.com##script:has-text(Math.random)
 qnxz.top##div.lg\:grid-cols-2
 quark.cn##.reflow-button
 quark.cn##.relfow-button
@@ -7294,8 +7297,6 @@ twitter.com,x.com##a[href*="src=promoted_trend_click"] + div
 twitter.com,x.com##article[data-testid="tweet"]:has(path[d$="10H8.996V8h7v7z"])
 twitter.com,x.com##div[data-testid="cellInnerDiv"] > div > div[class] > div[class][data-testid="placementTracking"]
 twitter.com,x.com##div[data-testid="trend"]:has(> div[class]:only-child svg + span)
-txtduo.app,txtduo.cn,txtduo.com,txtduo.live,txtduo.org,xfreehd.com##^script:has-text(Math.random)
-txtduo.app,txtduo.cn,txtduo.com,txtduo.live,txtduo.org,xfreehd.com##script:has-text(Math.random)
 txtduo.org,txtduo.com,txtduo.app,txtduo.cn,txtduo.live##div[style*="margin:"]
 txxx.com##.gfpl-wrapper
 txxx.com##[class*="popup"]
@@ -7607,6 +7608,8 @@ yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,colamanga.com##.fa-close
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com,colamanga.com##canvas
 yhpdm.com,yhdmp.net,d53px.com,colamanhua.com,dm99.me,jhycxcl.com,ledlmw.com,yhdm86.com,colamanga.com##embed[src]
 yhpdm.com,yhdmp.net,d53px.com,dm99.me##img[src^="/js/a_d"][src$=".png"]
+yinhuadm.xyz##^script:has-text(jsjiami.com.v4)
+yinhuadm.xyz##script:has-text(jsjiami.com.v4)
 yitongqinba.com##.visible-xs
 youku.com##.clipboard
 youngpornvideos.com##.sidebar div[class]:has(> a[href^="https://a.bestcontentoperation.top/"])
