@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: sYM+s3hv0ub4EGLNf5KSKw
-! Title: 混合规则精简版(更新日期2025-07-20 14:49:55)
-! Version: 20250720144956
+! Checksum: /+Th1Z2/iXX7OdRsIVnPLQ
+! Title: 混合规则精简版(更新日期2025-07-20 16:18:19)
+! Version: 20250720161819
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-20 14:49:56
-! Total Count: 62090
-! Blocked Filters: 62090
+! Last modified: 2025-07-20 16:18:19
+! Total Count: 62102
+! Blocked Filters: 62102
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -4439,7 +4439,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 |javascript:*window.location
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>42221
+!<<<<<域名规则>>>>>42233
 |http*://*?$third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 |http://$image,third-party,domain=pornhub.com|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|you-porn.com|youpornru.com
 |https://m.frgls.com/js/*.js?v=
@@ -9948,6 +9948,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||arianelab.com^$third-party
 ||arietidgrieced.top^
 ||arilribald.cyou^
+||arimaspdossing.rest^
 ||arimogdjucslstc.com^
 ||arioianrichter.shop^
 ||ariotgribble.com^
@@ -10396,6 +10397,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||auy07181km.com^
 ||auy07190km.com^
 ||auy07200km.com^
+||auy07201km.com^
 ||av-yoyo.com/images/*.gif
 ||av01.tv/av01/floating_video_ads
 ||av01.tv/images/partners/
@@ -12862,6 +12864,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||caaqot.com^
 ||cabbagereporterpayroll.com^
 ||cabblednester.shop^
+||cabbypre.cfd^
 ||cabletcaitif.shop^
 ||cabnnr.com^
 ||cabotswherret.top^
@@ -16144,6 +16147,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||damboreism.world^
 ||damdoor.com^$third-party
 ||damfooluncomic.shop^
+||damiajuly.shop^
 ||damiul.icu^
 ||dammywealth.com^
 ||dampdock.com^$third-party
@@ -18840,6 +18844,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ettoday.net/funfuntrip/
 ||ettoday.net/style/hot-trip/js/travel-action.js
 ||ettoday.net^*/ad/
+||etvurlcoygadl.site^
 ||etwzue.icu^
 ||etxt.biz/data/rotations/
 ||etxt.biz/images/b/
@@ -21683,6 +21688,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||grandparentsfortunes.com^
 ||grandstring.pro^
 ||granlite.com^$third-party
+||granthihombres.qpon^
 ||granulabatiks.help^
 ||granular-major.pro^
 ||granular-reflection.com^
@@ -22954,6 +22960,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||hoctor-pharity.xyz^
 ||hoddersputter.shop^
 ||hodynx.top^
+||hoeencpohchbi.online^
 ||hoes.tube/ai/
 ||hoghookies.top^
 ||hoglinooth.net^
@@ -31809,6 +31816,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ossshucklean.com^
 ||osteoidhoagy.top^
 ||ostiarytallols.qpon^
+||ostkioxwld.com^
 ||ostlon.com^
 ||osujcq.xyz^
 ||osumpdfciiptn.online^
@@ -31901,6 +31909,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||outgratingknack.com^
 ||outheelrelict.com^
 ||outhulem.net^
+||outleanpomfret.cfd^
 ||outletfishingrestoration.com^
 ||outlineflourishingplumber.com^
 ||outlook.live.com/ows/*/OutlookOptions/AdsAggregate
@@ -33889,6 +33898,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||psaiceex.net^
 ||psaignooksu.com^
 ||psailaukro.net^
+||psaiselraw.net^
 ||psaithagomtasu.net^
 ||psajushuphu.pro^
 ||psalruckadimpuh.net^
@@ -35628,6 +35638,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||replaceroute.com^$third-party
 ||replays.net/j/dazui
 ||replays.net/j/pinglunshang.png
+||repleatdisfen.click^
 ||replevyduelli.com^
 ||repliednektons.top^
 ||replumeketipic.digital^
@@ -44239,6 +44250,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||writeestatal.space^
 ||writingfreedomdecember.com^
 ||wrongpotato.com^$third-party
+||wroopkbu.com^
 ||wrppoldzkxbqo.space^
 ||wrsikq.xyz^
 ||wrth.cn^
