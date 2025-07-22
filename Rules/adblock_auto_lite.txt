@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: COZXHiPC6Sjx/qYUACr+2Q
-! Title: 混合规则精简版(更新日期2025-07-23 00:18:43)
-! Version: 20250723001843
+! Checksum: j+gJCrb3JF56mgZbW6aKaA
+! Title: 混合规则精简版(更新日期2025-07-23 00:32:08)
+! Version: 20250723003208
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-23 00:18:43
-! Total Count: 60253
-! Blocked Filters: 60253
+! Last modified: 2025-07-23 00:32:08
+! Total Count: 60268
+! Blocked Filters: 60268
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -4435,7 +4435,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 |javascript:*window.location
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>40380
+!<<<<<域名规则>>>>>40395
 |http*://*?$third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 |http://$image,third-party,domain=pornhub.com|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|you-porn.com|youpornru.com
 |https://m.frgls.com/js/*.js?v=
@@ -18941,6 +18941,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||fieslobwg.com^
 ||fiezaits.com^
 ||fightmallowfiasco.com^
+||figuraeworldly.cfd^
 ||figvatqrwd.com^
 ||fiinnancesur.com^
 ||fijekone.com^
@@ -20113,6 +20114,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||gdmxjbjjo.com^
 ||gdn.bigfishgames.com^
 ||gdnmpkvslbckh.xyz^
+||gdonqrdtzhvfq.space^
 ||gdqhim.icu^
 ||gdqrcloud.com/adBanner
 ||gdr3.com/us/
@@ -22926,6 +22928,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ifigent.com^
 ||ifirsjqydbkb.com^
 ||ifje.cn^
+||ifjovbake.com^
 ||ifjslio.top^
 ||ifkdy.com/_nuxt/44e01dcef4aa1a21d9a6.js
 ||ifkdy.com/ifkdy/weixin/isFollowMe
@@ -27643,6 +27646,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||meijutt.tv/js/pcjs/alltop_960_1.js
 ||meijuxz.com/template/ZQ/
 ||meilunsc.com^
+||meiosescongers.top^
 ||meipian.me^*/api_ad/
 ||meishiba.com.cn^$third-party
 ||meishichina.com/v3/
@@ -30563,6 +30567,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||otwlfwmuubeue.space^
 ||otzovik.com/scripts/function/iri2.php?
 ||ouaohliu.xyz^
+||ouckoalrucmam.net^
 ||oucnmtk.top^
 ||oucouksirt.com^
 ||oucpambrmtexm.online^
@@ -31070,6 +31075,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||pbfefd.icu^
 ||pbgufjylmzsym.top^
 ||pblinq.com^
+||pbmjjozyvyegz.store^
 ||pbmp.ali213.net/js/
 ||pbpurvockroo.com^
 ||pbterra.com^
@@ -33471,6 +33477,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||quantumdex.io^$third-party
 ||quantumlagoon.com^
 ||quantumshine.com^
+||quatuorcoyish.shop^
 ||qubeqxnx.com^
 ||quccoaybgjblpqg.com^
 ||qucnmty.top^
@@ -34466,6 +34473,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||riverdin.com^
 ||riverhit.com^
 ||rivetedkibbeh.shop^
+||rivetedrolpens.click^
 ||rivne.space^
 ||rivrumtmzjmqu.site^
 ||riwhssuoploai.buzz^
@@ -34610,6 +34618,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||romanceswoman-romance.com^
 ||romancetastic.com^
 ||romantlcaffair.net^
+||romeitenuzzles.rest^
 ||romencia.top^
 ||romeyxvef.com^
 ||romgoc.net/*/adblock_fuck.js
@@ -37133,6 +37142,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||sqlick.com^
 ||sqqleeondap.com^
 ||sqszcg.top^
+||sqtnbselqbaqw.site^
 ||squalidscrew.com^
 ||squallscaroler.world^
 ||square-direction.com^
@@ -38151,6 +38161,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||tampermonkey.net/s.js
 ||tampoonhopsage.shop^
 ||tanbarshenh.org^
+||tangentmuller.shop^
 ||tangible-guarantee.pro^
 ||tangibleteam.com^$third-party
 ||tangrenjie.tv/gg/$image
@@ -39969,6 +39980,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||uclimit.top^
 ||ucmx.cn^
 ||ucnqxnke.com^
+||ucoomogreert.net^
 ||ucsbrslppqiav.xyz^
 ||uctutu3789.xyz^
 ||ucvbdtbxqubxl.space^
@@ -41886,6 +41898,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||weqbzrzjpzkds.online^
 ||weremoiety.com^
 ||wererxrzmp.com^
+||wergilexists.world^
 ||weryt111.fun^
 ||wesmallproclaim.com^
 ||west.bidtellect.com^
@@ -42367,6 +42380,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||wordego.com^
 ||wordfence.me^
 ||wordsdelivery.com^
+||wordtradeflank.com^
 ||workback.net^
 ||workoperation.com^$third-party
 ||worldfreshblog.com^
@@ -44010,6 +44024,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||youmi.net^
 ||youngsextube.me/agent.php
 ||youngstermansionphrase.com^
+||youngstreet.pro^
 ||youporn.com/_xa/ads
 ||youporn.com^$script,subdocument,domain=youporn.com|youporngay.com
 ||youpornzz.com/*.gif
