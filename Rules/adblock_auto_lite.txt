@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: HcCROmixcLna8mZzR1LdVQ
-! Title: 混合规则精简版(更新日期2025-07-24 15:03:32)
-! Version: 20250724150332
+! Checksum: SmrEWzkVWFCKb2RgcuroaQ
+! Title: 混合规则精简版(更新日期2025-07-24 16:21:11)
+! Version: 20250724162111
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-07-24 15:03:32
-! Total Count: 60845
-! Blocked Filters: 60845
+! Last modified: 2025-07-24 16:21:11
+! Total Count: 60862
+! Blocked Filters: 60862
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -4435,7 +4435,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 |javascript:*window.location
 !<<<<<通配符规则 结束>>>>>
 
-!<<<<<域名规则>>>>>40967
+!<<<<<域名规则>>>>>40982
 |http*://*?$third-party,domain=forums.socialmediagirls.com|pornhub.com|redtube.com|tube8.com|youporn.com|youporngay.com
 |http://$image,third-party,domain=pornhub.com|redtube.com|redtube.net|tube8.com|tube8.es|tube8.fr|youporn.com|youporngay.com|you-porn.com|youpornru.com
 |https://m.frgls.com/js/*.js?v=
@@ -11137,6 +11137,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||benesse.ne.jp/*/banner/line_account_2111_600x514
 ||benidorinor.com^
 ||beniluuxen.com^
+||benniesondy.top^
 ||benofftake.shop^
 ||benoopto.com^
 ||benpsbp.com^
@@ -12316,6 +12317,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||burialhotter.com^
 ||burkhafogey.shop^
 ||burleysnath.shop^
+||burlilydrabs.click^
 ||burlywhistle.com^$third-party
 ||burnbubble.com^$third-party
 ||burniecrepes.com^
@@ -13652,6 +13654,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||choodsaingalo.net^
 ||chooftookikip.net^
 ||choogeet.net^
+||chookoolted.net^
 ||choomsohidrie.net^
 ||chooncv.icu^
 ||choongedsoo.com^
@@ -15939,6 +15942,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||dawingfawnier.world^
 ||dawnfilthscribble.com^
 ||dawtielegwork.life^
+||dawtingaright.click^
 ||dawurtinsumpoaz.net^
 ||daybookslims.rest^
 ||dayfund.*/images/uds/
@@ -22630,6 +22634,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||hsex.men/nb/
 ||hsex.men/view/img/*.gif
 ||hsforms.net/forms/$domain=oko.uk|bigissue.com
+||hsihailers.cyou^
 ||hsnskx.care^
 ||hsoubnp.icu^
 ||hsrvz.com^
@@ -24470,6 +24475,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||jdrlfn.xyz^
 ||jdt8.net^
 ||jdwx.info/api.php?mod=ad&
+||jdxxuvnrpdmit.space^
 ||jdyurlia.top^
 ||je4y15ji.xyz^
 ||jebrhb.icu^
@@ -24791,6 +24797,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||joqowqymkrrrb.top^
 ||joqpqwdsbjkpr.com^
 ||jordan.qunis.ru^
+||joristquoniam.help^
 ||jorramverglas.digital^
 ||jossfonts.rest^
 ||joublia.top^
@@ -24948,6 +24955,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||js.onclckvd.com^
 ||js.onclmng.com^
 ||js.phoenixmanga.com^
+||js.rev.iq^$third-party
 ||js.ruiwen.com^
 ||js.shangxueba.com^
 ||js.shunqi.com^
@@ -27230,6 +27238,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||lycos.com/catman/
 ||lycykqrnprxjc.site^
 ||lyd.com.cn^*950-90.
+||lyexrcudpidrv.store^
 ||lygjgjqbzzzqy.top^
 ||lyislol.top^
 ||lylowerhughe.com^
@@ -30276,6 +30285,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||ofkrabbyr.com^
 ||ofleafeona.com^
 ||ofphanpytor.com^
+||ofpodconnmtyd.space^
 ||ofqdwvymud.xyz^
 ||ofqvca.xyz^
 ||ofredirect.com^
@@ -30571,6 +30581,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||onhockey.tv/stopadblock*.jpg
 ||onifdlak.top^
 ||onjncgq.top^
+||onkaccjhamug.com^
 ||onkavst.com^
 ||onkhwanhuo.com^
 ||onlain-multiki.ru/config.json
@@ -33663,6 +33674,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||qlfgrypbivmb.com^
 ||qlfqkjluvz.com^
 ||qliaxwlyjbktqy.com^
+||qljgzzflmlp.com^
 ||qlkysc.icu^
 ||qlnrnmze.com^
 ||qlogo.cn^$domain=chichiav1.xyz
@@ -36668,6 +36680,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||show.kc.taotaosou.com^
 ||showcasead.com^
 ||showcasethat.com^
+||showdomcassy.cfd^
 ||showgarget.help^
 ||showhaotu.$domain=18board.com|18p2p.com
 ||showhythiki.pro^
@@ -41007,6 +41020,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||usjbwvtqwv.com^
 ||uskecsx.icu^
 ||uskokvolutin.com^
+||usneoidseptole.top^
 ||usodseebsaigli.net^
 ||usp1.baidu.com^
 ||usrfiles.com^$domain=dannydutch.com|melophobemusic.com
@@ -41905,6 +41919,7 @@ zhaotianbao1.cn/*/ywy*.apk$~third-party
 ||vtlpkoshbpquo.online^
 ||vtlyrj.xyz^
 ||vtmbnurtndcgo.store^
+||vtohfxij.com^
 ||vtqhelleano.com^
 ||vtrk.dv.tech^
 ||vtrrxqbi.xyz^
@@ -55275,7 +55290,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 zzztube.com,videoporn.tube##.b-random-column
 !<<<<<网站单独规则 结束>>>>>
 
-!<<<<<通用Css规则>>>>>4589
+!<<<<<通用Css规则>>>>>4591
 ###ADbox
 ###ADtip
 ###Ad-Container
@@ -58091,6 +58106,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ##.rightAd
 ##.right_advert
 ##.rightadv
+##.rm-two > a[href*=".umtrack.com"]
 ##.rmp-ad-container
 ##.room-ad-bottom
 ##.room-ad-top
@@ -58750,6 +58766,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ##a[href*="/entry/register"][href*="i_code"]
 ##a[href*="/gg1132.vip"]
 ##a[href*="/h91.tv"]
+##a[href*="/hs63.cc"]
 ##a[href*="/jump/next.php?r="]
 ##a[href*="/kt169.com"]
 ##a[href*="/l1y9.com"]
