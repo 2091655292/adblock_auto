@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: fxxrrGyNC+VZuzqjLyOpOw
+! Checksum: D6K0kPgNCk6Ei3VrBruocQ
 ! Title: 自用去广告Adblock规则
-! Version: 20250730052557
-! Last modified: 2025-07-30 05:25:58
-! Total Count: 8949
+! Version: 20250805000934
+! Last modified: 2025-08-05 00:09:34
+! Total Count: 8955
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -5089,10 +5089,10 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1amateurporn.com##[class^="native-"]:has([real-href*="/safu/safu.php?"])
 1amateurporn.com##img[src*="/safu/safu.php?"]
 1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"],body[style^="padding"] > [style*="130px"],img[width="30"][height="60"]
-1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,speechhearing.net,txtduo.org,wumtt.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
-1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,txtduo.org,wumtt.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
-1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wumtt.org,xcmv.cc,yhdm28.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
-1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wumtt.org,xcmv.cc,yhdm28.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
+1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,speechhearing.net,txtduo.org,wumtt.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
+1dm9.cc,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,txtduo.org,wumtt.org,xcmv.cc,yhdm28.com,yhdm9.cc,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
+1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wumtt.org,xcmv.cc,yhdm28.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
+1dm9.cc,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wumtt.org,xcmv.cc,yhdm28.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
 1kans.net##.content > div[id]:has(img[style^="width:100%"])
 1kans.net##.content > div[id]:has(textarea)
 1kans.net##^script:has-text(s.parentNode.insertBefore)
@@ -5381,6 +5381,9 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://cnzz*/code/$third-party
 ://creative.*.com/widgets/v4/Universal
 ://creative.*/widget*.js$third-party
+://d.*.buzz/*/*-20*-*/$third-party,~media,~stylesheet,~image
+://d.*.site/*/*-20*-*/$third-party,~media,~stylesheet,~image
+://d.*.xyz/*/*-20*-*/$third-party,~media,~stylesheet,~image
 ://dasdasss.adf$third-party
 ://dciclc.*.top/*_*.apk?$third-party
 ://dl.hdslb.com/mobile/latest/android64/*apk
@@ -6709,6 +6712,8 @@ myyyw.cc##[href="/play/player.php"]
 myyyw.cc##div[style="margin:0 auto;"]
 mzcin.com##[class*="download"]
 n6h7m.com##a[href="/pwa/lottery"],img[src*="://ad.xmmnsl.com"],a[referrerpolicy="unsafe-url"][target="_blank"],.float-ad
+naicha14110.sbs##^script:has-text(histats.com)
+naicha14110.sbs##script:has-text(histats.com)
 nba.hupu.com##div[class^="nba-ad"]
 netflav.com##.ads_head_banner_container
 netflav.com##.ads_video_overlay_mobile
@@ -8047,6 +8052,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 ||cvk.supklik.com^
 ||cvmjf.xyz^$third-party
 ||czulie.icu^
+||d.dgfnhyn.site^
 ||d000d.com/e/
 ||d1cg2aopojxanm.cloudfront.net^
 ||d1ezlc9vy4yc7g.cloudfront.net^$third-party
