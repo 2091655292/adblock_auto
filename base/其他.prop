@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: pU/RL3L6P1WMKK8lIzMkFQ
+! Checksum: yFasrC3gonJhMp8n3FT1Qw
 ! Title: 自用去广告Adblock规则
-! Version: 20250805225433
-! Last modified: 2025-08-05 22:54:33
-! Total Count: 8964
+! Version: 20250806082818
+! Last modified: 2025-08-06 08:28:18
+! Total Count: 8966
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -2565,6 +2565,7 @@
 ##div.stui_md > .list-box
 ##div.suiji.bottom,div.suiji.topad
 ##div.v_ad
+##div.xqbj-download
 ##div:not([class]):not([id]) > iframe[width="407"][scrolling="no"][src*="//"][src*="?"][src*="="][src*="&"][height][frameborder="0"]
 ##div:not([id]):not([class]):not([style]) > .ad-area-close
 ##div:not([id]):not([class]):not([style]) > .ad-area-close + div[style*="background-color:"]:not([class]):not([id])
@@ -7278,6 +7279,7 @@ tnaflix.com##.bannerBlock
 tnaflix.com##.rbsd
 topfapgirlspics.com##.custom:has(iframe[src^="/css/assets.html?r=0"])
 topfapgirlspics.com##[class*="adn-posty"]
+topfaps.com##div.koukoku_1
 trjvod.com#@#iframe[src^="/ad"][src$=".html"]
 tsearch.toutiaoapi.com##.l-card
 ttdm.me##.module-ddslist:has(.gg-icon)
