@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: yFasrC3gonJhMp8n3FT1Qw
+! Checksum: NJrj/TC/Y/f/zDPXub+VUA
 ! Title: 自用去广告Adblock规则
-! Version: 20250806082818
-! Last modified: 2025-08-06 08:28:18
-! Total Count: 8966
+! Version: 20250813115520
+! Last modified: 2025-08-13 11:55:20
+! Total Count: 8977
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -3356,6 +3356,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/facaishen1.js
 .com/float_down.js?17$third-party
 .com/footmenu.js$~third-party
+.com/getMongoAd.php?$third-party
 .com/gu1ding.js$script,~third-party
 .com/happyxia.js
 .com/headmenu.js$~third-party
@@ -5043,8 +5044,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 118pan.com##.card-body:has(script[src*="/i/openjs/"])
 11fzw.com##.index-top-ad
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
-123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##^script:has-text(hm.baidu.com)
-123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##script:has-text(hm.baidu.com)
+123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,1qxs.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##^script:has-text(hm.baidu.com)
+123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,1qxs.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##script:has-text(hm.baidu.com)
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
 123av.com,123av.ws,1av.to,missav.ai,missav.city,missav.com,missav.loan,missav.pw,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com##.d-lg-none
 123movies.net,4anime.gg,actvid.com,animefreak.site,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
@@ -5092,10 +5093,10 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1amateurporn.com##[class^="native-"]:has([real-href*="/safu/safu.php?"])
 1amateurporn.com##img[src*="/safu/safu.php?"]
 1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"],body[style^="padding"] > [style*="130px"],img[width="30"][height="60"]
-1dm9.cc,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,speechhearing.net,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
-1dm9.cc,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
-1dm9.cc,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
-1dm9.cc,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
+1dm9.cc,1qxs.com,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,speechhearing.net,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
+1dm9.cc,1qxs.com,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
+1dm9.cc,1qxs.com,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
+1dm9.cc,1qxs.com,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
 1kans.net##.content > div[id]:has(img[style^="width:100%"])
 1kans.net##.content > div[id]:has(textarea)
 1kans.net##^script:has-text(s.parentNode.insertBefore)
@@ -5103,6 +5104,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1kans.net##script:has-text(s.parentNode.insertBefore)
 1kans.net,jmshuwu.net,jpbqg6.com,klast.org,yh-dm.com##^script:has-text(navigator)
 1kans.net,jmshuwu.net,jpbqg6.com,klast.org,yh-dm.com##script:has-text(navigator)
+1lou.info###advert
 1shorten.com,antiscan.me,app.stream2watch.sx,aylink.co,bets.pl,blogmado.com,cryptofuns.ru,dooseries.org,downturk.net,filma24.*,filmeserialehd.biz,flacdl.com,flashx.net,gdrivez.xyz,gitlink.pro,illink.net,kvador.com,manga168.com,modsfire.com,plawarn-manga.net,pornstash.in,privatemoviez.*,spaste.com,speed4up.com,tlin.me,tweetycoin.com,uploadflix.org,uploadraja.com,vezionlinefilme.com,xxx888porn.com##center > a[target="_blank"] > img
 1v1.lol,accuweather.com,aim400kg.com,airport-charles-de-gaulle.com,alison.com,ancient.eu,apornotube.net,appleinsider.com,appsious.com,barchart.com,bgr.in,bitsofco.de,bombhopper.io,businessinsider.com,citra-emu.org,clevelandclinic.org,crn.com,dcode.fr,defensesystems.com,delfi.lt,dvdsreleasedates.com,dynamicwallpaper.club,earlygame.com,ehow.com,elophant.com,epson-event-manager-utility.en.lo4d.com,ertyu.org,filehippo.com,flightglobal.com,forvo.com,getdaytrends.com,gifcandy.net,gingersoftware.com,gmanetwork.com,gradesaver.com,gtplanet.net,hiperdex.com,history.com,howchoo.com,ibc.org,icefilms.info,indiatvnews.com,infobyip.com,instadp.com,investopedia.com,ipaddress.com,javascripttutorial.net,jungle.lol,justfall.lol,lilymanga.com,macleans.ca,mangafox.la,martech.org,mobafire.com,movieweb.com,mtlblog.com,myhoustonmajic.com,mysqltutorial.org,mywebtimes.com,narcity.com,ndtv.com,nejm.org,newatlas.com,newsd.in,nytimes.com,nytimes3xbfgragh.onion,online-audio-converter.com,online-video-cutter.com,outsider.com,owfire.com,pairom.com,pdf.io,phoneky.com,picmix.com,pinkvilla.com,politico.eu,pornhd.com,prosettings.net,psdetch.com,pythontutorial.net,r3sub.com,ranker.com,readingrockets.org,saavn.com,samistream.com,satelite.io,servers.fivem.net,sexhoundlinks.com,soundclouddownloader.org,sqlservertutorial.net,supersextube.pro,techlusive.in,tempostorm.com,thehentaiworld.com,thelayoff.com,theurbanlist.com,thurrott.com,trafficland.com,tricksplit.io,tripadvisor.*,tvweb.com,updatestar.com,uptodown.com,whatsmydns.net,winporn.net,worldstarhiphop.com,worms.lol,www-technologyreview-com.cdn.ampproject.org,yokibu.com,zipi.com##body .ad
 2345.com##.pic:has(a[href^="http://g.wan."])
@@ -5193,6 +5195,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 666biquge.com##^script:has-text(foot\(\))
 666biquge.com##script:has-text(catch\(err\))
 666biquge.com##script:has-text(foot\(\))
+69av.one,8mav.cc,91av.one,91porn.work,99xing.cc,avlulu.cc,jable.one,maomiav.one,tuoku8.one,weav.xyz,x99av.com##div[class] > span[class]:has(div[class*="q-responsive"])
 69gfs.com,6japaneseporn.com,allureamateurs.net,analteen.pro,goodindianporn.com,mangacanblog.com,mataporno.com,orientalasianporn.com,sexmummy.com,teenwantme.com,worldgatas.com,xpg.com.br###topbar
 69tang.org##.kangxia
 69tang.org##div.video-holder > [style^="border:2px"]
@@ -5200,7 +5203,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 69tang.org##div[style="position: absolute; inset: 0px; overflow: hidden; background: transparent; display: block;"]
 69vj.com###vban
 69vj.com##[href^="https://b2pk.com/b/a/d/ck.php"]
-69xx.one,69xx487.xyz,88av.one,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,weav.xyz,x69av.cc,x88av.cc,x99av.cc##[class]:has(>a>.q-responsive)
+69xx.one,69xx487.xyz,88av.one,8mav.cc,av411.xyz,cable2055.cc,theav.xyz,thep178.com,theporn.cc,tuoku8.one,weav.xyz,x69av.cc,x88av.cc,x99av.cc##[class]:has(>a>.q-responsive)
 7itv.com##*[style*="display"][style*="block"],*[style*="position"][style*="fixed"],*[style*="bottom:"],[class$="_b"]
 7mmtv.sx,91porn.best,adultdeepfakes.com,kemono.su,missav.ai,missav.city,missav.com,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com,missav888.com,pornbest.com,pornbest.net,pornbest.org,porncam.cc,porncam.com,porncam.sex,pornfind.com,pornfind.net,pornfind.org,pornfind.sex,pornhk.org,pornlulu.com,pornlulu.net,ptt.com,ptt.net,ptt.sex,simplyhentai.org,thisav.com,yourlust.com##[class^="root--"]
 85tube.com,camhub.cc,camhub.world,fuckit.cc,thothd.com,watchporn.to#@#.ads-iframe
@@ -5274,7 +5277,9 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*.aj25*.bid/*.js$third-party
 ://*.biquge*/mm.js
 ://*.com/*.*.*?17$third-party,domain=xiuluodm.com
+://*.erciyan.*/*/0*11.js
 ://*.fcdm233.*/piao/$script
+://*.hdys*/*.js?t=17
 ://*.hh-tv.*/js/footer.js
 ://*.ijjxs.*/m.js
 ://*.kuaijuwu.*/js/cba/$script,~third-party
@@ -5375,6 +5380,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://api.*.com/sh/to/$third-party,xmlhttprequest
 ://auete.*/js/mcenter/$script
 ://ayq*nsx.icu/*.js$third-party,script
+://bdwmh*.*/$third-party
 ://cdn.*.xyz/xsxs.js$third-party
 ://cdn.biquge*/*ggs.js
 ://cf*cdn*/static/js/f*.js$third-party
@@ -5396,9 +5402,14 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://dpic.*.cn/*.js$third-party
 ://dpic.*.cn/*.txt$third-party
 ://e.*.xyz/apps/sdk$third-party
+://eclick.*.*/*?t=$third-party
 ://gb.*/mgb.js$third-party
 ://gb.*/sys.js$third-party
 ://gg.*.cc/*.js$script,third-party
+://gg.*.cn/$third-party
+://gg.*.cn:*/$third-party
+://gg.*.top/$third-party
+://gg.*.top:*/$third-party
 ://gg.*/*.js$third-party
 ://go.*.com/*=WidgetV4Universal
 ://go.*.com/smartpop/*?*=$third-party
@@ -5747,7 +5758,6 @@ autohome.com.cn##ol
 autohome.com.cn##section.bbs-post-replay.operate-position
 avgle.com##a[href*="/redirect"]
 avgle.com##img[src*=".php"]
-avlulu.cc,69av.one,8mav.cc,91av.one,91porn.work,99xing.cc,jable.one,maomiav.one,weav.xyz,x99av.com##div[class] > span[class]:has(div[class*="q-responsive"])
 avple.tv##.MuiSkeleton-root
 avple.tv##.jss13
 avple.tv##.jss20
@@ -6074,6 +6084,7 @@ efukt.com##[data-ad-type]
 enet.com.cn,fjsen.com,hupu.com,kdslife.com,mysteel.com,news.cnyes.com,olehd.com,olevod.com,olevod.eu,pchome.net,rznews.cn,~car.kdslife.com,~my.hupu.com##div[class^="ad"]
 eporner.com##[class^="admobile"]
 eporner.com##[id^="admobile"]
+eporner.com,missav.ai,missav.com,missav.ws,missav123.com,missav789.com,missav888.com,myav.com,thisav.com##+js(nowoif)
 erciyan.com##^script:has-text(function xxS)
 erciyan.com##script:has-text(function xxS)
 eromanga-show.com,hentai-one.com,hentaipaw.com##+js(no-setTimeout-if, /[a-z]\(!0\)/, 800)
@@ -6670,7 +6681,6 @@ missav.ai,missav.city,missav.com,missav.loan,missav.today,missav.wiki,missav.ws,
 missav.ai,missav.city,missav.com,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com##iframe[src*="://creative.live.missav"]
 missav.ai,missav.city,missav.com,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com##img[src^="https://static.missav"][data-src^="https://static.missav"][alt][class="lozad"][data-loaded="true"]
 missav.ai,missav.city,missav.com,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com##script:has-text(htmlAds)
-missav.ai,missav.com,missav.ws,missav123.com,missav789.com,missav888.com,myav.com,thisav.com##+js(nowoif)
 missav.ai,missav.com,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com,missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav888.com,missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav888.com##.lg\:block
 missav.ai,missav.com,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com,missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav888.com,missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav888.com##.lg\:hidden
 missav.ai,missav.com,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com,missav.ai,missav.city,missav.loan,missav.today,missav.wiki,missav.ws,missav123.com,missav888.com,missav.ai,missav.com,missav.ws,missav123.com,missav789.com,missav888.com,myav.com##[x-show$="video_details'"] > div > .list-disc
@@ -7887,6 +7897,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 ||amazon-adsystem.com^
 ||amung.us^
 ||an.yandex.ru^
+||analysis.120ask.com^
 ||analyti*.woozooo.com^$third-party
 ||anti.69vclub.com^
 ||antiadblocksystems.com^
