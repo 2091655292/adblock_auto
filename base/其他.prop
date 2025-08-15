@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: KZg2MlKlz3b1cQ5wbTpi7g
+! Checksum: BdsqhibbCtCPEObaWv6vsQ
 ! Title: 自用去广告Adblock规则
-! Version: 20250813184306
-! Last modified: 2025-08-13 18:43:07
-! Total Count: 8978
+! Version: 20250815150814
+! Last modified: 2025-08-15 15:08:15
+! Total Count: 8981
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -3692,6 +3692,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .xyz/xfb_m.js$third-party,script
 .xyz/xling_*_*.js?
 .xyz/z/*/code.js$script,third-party
+.xyz/z/*/json$third-party
 .xyz/zh/*/*.gif$third-party,image
 .xyz/zooker?$third-party
 .xyz:*/*/*.alpha$third-party
@@ -5346,6 +5347,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*tianxibook*/*/0*1.js$script,~third-party
 ://*tianxibook*/public/*.js
 ://*ting13.*/public/tingshu/foor.js$script
+://*xfdm*/template/conch/asset/js/ping2.js
 ://*xhamster*.com/*/vast?
 ://*xhamster*.desi/*/vast?
 ://*xhchannel*.desi/*/vast?
@@ -5759,6 +5761,7 @@ autohome.com.cn##ol
 autohome.com.cn##section.bbs-post-replay.operate-position
 avgle.com##a[href*="/redirect"]
 avgle.com##img[src*=".php"]
+avjoy.me##[class^="ad-content"]:has(script[src*="ad"])
 avple.tv##.MuiSkeleton-root
 avple.tv##.jss13
 avple.tv##.jss20
