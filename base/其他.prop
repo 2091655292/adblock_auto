@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: BdsqhibbCtCPEObaWv6vsQ
+! Checksum: hetjbFix6P+tNZMhCLJKUA
 ! Title: 自用去广告Adblock规则
-! Version: 20250815150814
-! Last modified: 2025-08-15 15:08:15
-! Total Count: 8981
+! Version: 20250819182543
+! Last modified: 2025-08-19 18:25:43
+! Total Count: 8983
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -5045,8 +5045,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 118pan.com##.card-body:has(script[src*="/i/openjs/"])
 11fzw.com##.index-top-ad
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
-123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,1qxs.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##^script:has-text(hm.baidu.com)
-123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,1qxs.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##script:has-text(hm.baidu.com)
+123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,1qxs.com,genbiquge.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##^script:has-text(hm.baidu.com)
+123684.com,123864.com,123865.com,123866.com,123912.com,123957.com,123pan.cn,123pan.com,1qxs.com,genbiquge.com,huade315.com,piaotianxiaoshuo.com,taobiquge.com,vipbiquge.com,yebiquge.com,yh-dm.com,zhaobiquge.com##script:has-text(hm.baidu.com)
 123av.com,123av.ws,1av.to##[style^="width:300px;"]
 123av.com,123av.ws,1av.to,missav.ai,missav.city,missav.com,missav.loan,missav.pw,missav.today,missav.wiki,missav.ws,missav123.com,missav789.com,missav888.com,thisav.com##.d-lg-none
 123movies.net,4anime.gg,actvid.com,animefreak.site,apkmody.io,batotoo.com,beetoon.net,bollyflix.loan,bravoporn.com,cineb.net,coloredmanga.com,downloadlagu321.site,dragontranslation.com,dramacool.sr,gogoanime.co.in,gogoanime.run,harimanga.com,hds-streaming-hd.com,himovies.to,hurawatch.cc,iflixmovies.lol,instamod.co,jujutsukaisenonline.net,leercapitulo.com,linksly.co,mangadna.com,mangageko.com,mangahere.today,manganatos.com,mangatigre.net,manhuafast.com,manhwadesu.ink,manhwalist.xyz,membed.net,messitv.net,miraculous.to,movies-watch.com.pk,moviesmod.pro,nkiri.com,prmovies.beauty,putlocker.vc,putlockers.fm,putlockers.li,sflix.se,sockshare.ac,ssoap2day.to,streamingcommunity.mom,sukidesuost.info,tamilyogi.bike,uwatchfre.cam,waploaded.com,watchomovies.net,y-2mate.com,yomovies.team,ytmp3.cc,yts-subs.com##iframe[style*="z-index: 2147483647"]
@@ -5061,6 +5061,10 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 131400.best,vikacg.com,vikacg.xyz##a[href^="http"] > img[src*="/assets/next/"]
 131400.best,vikacg.com,vikacg.xyz##div.card:has(a[target="_blank"][href*="/?code="])
 131400.best,vikacg.com,vikacg.xyz##div:not([id]):not([class]):not([style]) > div[id]:has(img[src*=".gif"])
+13xsw.com,1dm9.cc,1qxs.com,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,speechhearing.net,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
+13xsw.com,1dm9.cc,1qxs.com,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
+13xsw.com,1dm9.cc,1qxs.com,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
+13xsw.com,1dm9.cc,1qxs.com,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
 16honeys.com###adDisplaySection
 16honeys.com###adSpot
 16honeys.com,iporntv.net###ad-container
@@ -5094,10 +5098,6 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1amateurporn.com##[class^="native-"]:has([real-href*="/safu/safu.php?"])
 1amateurporn.com##img[src*="/safu/safu.php?"]
 1anime.me##[class*="ads"],[style*="z-index:"][style*="2000000000"],[style*="z-index:"][style*="5000000"],img[src*="//hgilaryph.com/"],body[style^="padding"] > [style*="130px"],img[width="30"][height="60"]
-1dm9.cc,1qxs.com,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,speechhearing.net,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##script:has-text(new Function)
-1dm9.cc,1qxs.com,58xs.io,adm11.com,biquge365.net,bisowu.net,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,chelianjiaogui.com,cooing2.xyz,cooing3.xyz,cooingc.cc,cqshuda.com,dandanzandy.com,dldl1.cc,dldl2.cc,dldl3.cc,dldl4.cc,dldl5.cc,dm789.com,douluo.cc,fcdm77.cc,fcmv.cc,fofoyy.com,hantv8.com,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,huade315.com,jpbqg6.com,kanshuzhan.com,klast.org,koweer.com,mjtt1.cc,myg66.com,naicha14110.sbs,okdm.cc,okdm.top,okdm2.cc,okdm2.top,okdm3.cc,okdm3.top,okdm4.cc,okdm4.top,okdm5.cc,okdm5.top,okdm6.cc,okdm6.top,omofun.buzz,omofun.link,omofun.live,omofun.top,omofuns.buzz,omofuns.link,omofuns.live,omofuns.top,shenma.cc,shenma4.cc,txtduo.org,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhdm9.cc,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhaobiquge.com,zhenbuka.ccokdm.top##^script:has-text(new Function)
-1dm9.cc,1qxs.com,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghua.im,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##^script:has-text(new Date)
-1dm9.cc,1qxs.com,58xs.io,adm11.com,cbh1.cc,cbh2.cc,cbh3.cc,cbh5.cc,cdm7.cc,dm789.com,fcdm77.cc,fcmv.cc,hjtv.cc,hjtv2.cc,hjw1.cc,hjw2.cc,koweer.com,mjtt1.cc,shenma.cc,shenma4.cc,speechhearing.net,wedm3.com,wumtt.org,xcmv.cc,yh-dm.com,yhdm28.com,yhta.cc,yhta.com,yinghuadm.cn,yinghuadongman.one,zhenbuka.cc##script:has-text(new Date)
 1kans.net##.content > div[id]:has(img[style^="width:100%"])
 1kans.net##.content > div[id]:has(textarea)
 1kans.net##^script:has-text(s.parentNode.insertBefore)
@@ -5174,7 +5174,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 51cg1.com,91cg1.com,h3tgz1.eoxdcmkg.cc,h3tgz1.ytorthjii.com,h3tgz2.ytorthjii.com,h3tgz3.woqrzdwcl.org,h3tgz3.ytorthjii.com,h3tgz4.uysdpthc.com,h3tgz4.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz7.ytorthjii.com,h3tgz8.ytorthjii.com,h5frz2.cmenjkk.com,h5frz3.cmenjkk.com,h5frz4.cmenjkk.com,h5frz5.cmenjkk.com,h5frz6.cmenjkk.com,h5frz7.cmenjkk.com,h5frz8.cmenjkk.com,h5fsz1.eoxdcmkg.cc,h5fsz2.eoxdcmkg.cc,h5fsz3.eoxdcmkg.cc,hyduz1.cmenjkk.com##a[href]:has(> img[src^="data:image/horizontal-banner"])
 51cg1.com,91cg1.com,h3tgz1.eoxdcmkg.cc,h3tgz1.ytorthjii.com,h3tgz2.ytorthjii.com,h3tgz3.woqrzdwcl.org,h3tgz3.ytorthjii.com,h3tgz4.uysdpthc.com,h3tgz4.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz7.ytorthjii.com,h3tgz8.ytorthjii.com,h5frz2.cmenjkk.com,h5frz3.cmenjkk.com,h5frz4.cmenjkk.com,h5frz5.cmenjkk.com,h5frz6.cmenjkk.com,h5frz7.cmenjkk.com,h5frz8.cmenjkk.com,h5fsz1.eoxdcmkg.cc,h5fsz2.eoxdcmkg.cc,h5fsz3.eoxdcmkg.cc,hyduz1.cmenjkk.com##article[itemscope]:has(meta[content="广告"])
 51cg1.com,91cg1.com,h3tgz1.eoxdcmkg.cc,h3tgz1.ytorthjii.com,h3tgz2.ytorthjii.com,h3tgz3.woqrzdwcl.org,h3tgz3.ytorthjii.com,h3tgz4.uysdpthc.com,h3tgz4.ytorthjii.com,h3tgz5.ytorthjii.com,h3tgz6.ytorthjii.com,h3tgz7.ytorthjii.com,h3tgz8.ytorthjii.com,h5frz2.cmenjkk.com,h5frz3.cmenjkk.com,h5frz4.cmenjkk.com,h5frz5.cmenjkk.com,h5frz6.cmenjkk.com,h5frz7.cmenjkk.com,h5frz8.cmenjkk.com,h5fsz1.eoxdcmkg.cc,h5fsz2.eoxdcmkg.cc,h5fsz3.eoxdcmkg.cc,hyduz1.cmenjkk.com##img[id][src^="data:"]
-520cc.cc,520cc.com,afterellen.com,boston.com,calgarysun.com,cattime.com,cbssports.com,celebuzz.com,cnet.com,comingsoon.net,computershopper.com,ctnow.com,cycleworld.com,edmunds.com,everydayhealth.com,foxsports.com.au,gamespot.com,hanime1.cfd,hanime1.icu,hanime1.me,hanime1.men,metacritic.com,msn.com,popphoto.com,popsci.com,ranker.com,saveur.com,sfgate.com,sportingnews.com,thoughtcatalog.com,tv.com,tvguide.com,washingtonpost.com,webmd.com,windowscentral.com#@#iframe[width="300"][height="250"]
+520cc.cc,520cc.com,afterellen.com,boston.com,calgarysun.com,cattime.com,cbssports.com,celebuzz.com,cnet.com,comingsoon.net,computershopper.com,ctnow.com,cycleworld.com,edmunds.com,everydayhealth.com,foxsports.com.au,gamespot.com,hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.me,hanime1.men,metacritic.com,msn.com,popphoto.com,popsci.com,ranker.com,saveur.com,sfgate.com,sportingnews.com,thoughtcatalog.com,tv.com,tvguide.com,washingtonpost.com,webmd.com,windowscentral.com#@#iframe[width="300"][height="250"]
 520cc.com,520cc.cc#@##inplayer
 555dd1.com,555dd2.com,555dd3.com,555dd4.com,555dd5.com,555dd6.com,555dd7.com,555dd8.com,555dd9.com,555dy.cn,555dy.com,555dy.com.cn,555dy.fun,555dy3.com,555dy4.com,555kan.net,555pian.com,555yy1.com,555yy2.com,555yy3.com,555yy4.com,555yy5.com,5dy7.vip,dami10.me,dami2.me,dami3.me,dami4.me,dami5.me,dami6.me,dami9.me,dmdy1.vip,dmdy2.vip,dmdy3.vip,dmdy4.vip,myd666.tv,o8tv.com,zxk555.com##.is_mb
 58.com##.ac_item:has(.jingpin)
@@ -5842,8 +5842,8 @@ bbiqudu.com##^script:has-text(document.write)
 bbiqudu.com##^script:has-text(var c=\")
 bbiqudu.com##script:has-text(document.write)
 bbiqudu.com##script:has-text(var c=\")
-bbiqudu.com,hanime1.cfd,hanime1.icu,hanime1.men##^script:has-text(parentNode.insertBefore)
-bbiqudu.com,hanime1.cfd,hanime1.icu,hanime1.men##script:has-text(parentNode.insertBefore)
+bbiqudu.com,hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##^script:has-text(parentNode.insertBefore)
+bbiqudu.com,hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##script:has-text(parentNode.insertBefore)
 bbs.hupu.com##.hp-ad250-250
 bdimg.com##div[data-track*="fengchao"]
 bdimg.com,tieba.baidu.com,tieba.com##div[class][lgoinprompt="prompt"]
@@ -6247,17 +6247,17 @@ hanime.tv##div[class^="htvnad"]
 hanime.tv##iframe[src^="https://ads.trafficjunky.net/"]
 hanime.tv#@#.ad-content-area
 hanime.tv#@#.vertical-ad
-hanime1.cfd,hanime1.icu,hanime1.me,hanime1.men##.search-rows-wrapper > .content-padding-new > .row > .multiple-link-wrapper:has(> a[href*=".labsda.com"])
-hanime1.cfd,hanime1.icu,hanime1.me,hanime1.men##.video-show-width > .single-show-list > .hidden-xs[style*="text-align:"]
-hanime1.cfd,hanime1.icu,hanime1.me,hanime1.men##div[style*="width: 310px; height: 282px;"]
-hanime1.cfd,hanime1.icu,hanime1.me,hanime1.men#@#iframe[src*=".magsrv.com/"]
-hanime1.cfd,hanime1.icu,hanime1.me,hanime1.men#@#iframe[src^="https://creative."][src*="/widgets/"]
-hanime1.cfd,hanime1.icu,hanime1.men##^script:has-text(addImageAd)
-hanime1.cfd,hanime1.icu,hanime1.men##^script:has-text(loadNewPopupAd)
-hanime1.cfd,hanime1.icu,hanime1.men##body > div[style*="9999"]:not([class]):not([id])
-hanime1.cfd,hanime1.icu,hanime1.men##div[style^="display: flex;"]:not([id]):not([class])
-hanime1.cfd,hanime1.icu,hanime1.men##script:has-text(addImageAd)
-hanime1.cfd,hanime1.icu,hanime1.men##script:has-text(loadNewPopupAd)
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.me,hanime1.men##.search-rows-wrapper > .content-padding-new > .row > .multiple-link-wrapper:has(> a[href*=".labsda.com"])
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.me,hanime1.men##.video-show-width > .single-show-list > .hidden-xs[style*="text-align:"]
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.me,hanime1.men##div[style*="width: 310px; height: 282px;"]
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.me,hanime1.men#@#iframe[src*=".magsrv.com/"]
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.me,hanime1.men#@#iframe[src^="https://creative."][src*="/widgets/"]
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##^script:has-text(addImageAd)
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##^script:has-text(loadNewPopupAd)
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##body > div[style*="9999"]:not([class]):not([id])
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##div[style^="display: flex;"]:not([id]):not([class])
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##script:has-text(addImageAd)
+hanime1.cfdhanime1.icu,hanime1.fit,hanime1.fun,hanime1.icu,hanime1.ink,hanime1.men##script:has-text(loadNewPopupAd)
 hanyu.baidu.com###download-wrapper
 hanyu.baidu.com##.business-el-card
 hanyu.baidu.com##[id^="fengchao_els"]
@@ -7230,7 +7230,9 @@ sspai.com###btn-call-app
 static.nfnews.com###z_box
 static.nfnews.com##.readmore_mask
 static.nfnews.com##a[onclick*="openApp"]
+sthuojia.net##^script:has-text(myJs.)
 sthuojia.net##div[id]:not([class]):not([style])
+sthuojia.net##script:has-text(myJs.)
 stopgame.ru#@#iframe[width="240"][height="400"]
 sunshinewaay.cn##img[class$="BnImg"]
 supjav.com##.movv-ad
