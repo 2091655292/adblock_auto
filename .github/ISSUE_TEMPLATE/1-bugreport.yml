@@ -51,6 +51,15 @@ body:
         输入你在使用过程中出现的问题      
     validations:
       required: true
+
+  - type: input
+    id: targetbolckwebsite
+    attributes:
+      label: 网址
+      description: 输入出现误杀的网址
+      placeholder: http(s)://……
+    validations:
+      required: true
   
   - type: textarea
     id: userangnt
