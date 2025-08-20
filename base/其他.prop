@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: ZCDoTWt1xyoad2A7ioYq1w
+! Checksum: Scwy/d74mC0i2EjJc//NLA
 ! Title: 自用去广告Adblock规则
-! Version: 20250819183706
-! Last modified: 2025-08-19 18:37:07
-! Total Count: 8992
+! Version: 20250821002050
+! Last modified: 2025-08-21 00:20:50
+! Total Count: 8993
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -5556,6 +5556,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 @@://xewl.xyz/8mei/js/*.js?16
 @@cc/o.js$third-party,script,domain=mpo18.com|xcupfox.com
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
+@@cdn.doubao.com^$domain=doubao.com
 @@encrypt.key
 @@game.baifumeiba.com/login/ad/adex.js
 @@github.githubassets.com$domain=github.com
