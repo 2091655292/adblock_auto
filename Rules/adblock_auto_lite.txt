@@ -1,11 +1,11 @@
 [Adblock Plus 2.0]
-! Checksum: 3u99hprZEiS6creU9GTFUw
-! Title: 混合规则精简版(更新日期2025-08-21 00:18:29)
-! Version: 20250821001829
+! Checksum: l5T03BsznjxhsRiL7DThyQ
+! Title: 混合规则精简版(更新日期2025-08-21 00:34:14)
+! Version: 20250821003414
 ! Expires: 12 hours (update frequency)
-! Last modified: 2025-08-21 00:18:29
-! Total Count: 62361
-! Blocked Filters: 62361
+! Last modified: 2025-08-21 00:34:14
+! Total Count: 62362
+! Blocked Filters: 62362
 ! Description: 合并于各种知名的Adblock规则，适用于移动端轻量的浏览器，例如 VIA / Rian / B仔浏览器
 ! Homepage: https://lingeringsound.github.io/adblock_auto
 ! Gitcode Homepage: https://gitcode.net/weixin_45617236/adblock_auto
@@ -61378,7 +61378,7 @@ zzztube.com,videoporn.tube##.b-random-column
 ~weibo.com##.con_ad
 !<<<<<通用Css规则 结束>>>>>
 
-!<<<<<放行白名单>>>>>1012
+!<<<<<放行白名单>>>>>1013
 #@##Ad300x145
 #@##Ad300x250
 #@##Ad728x90
@@ -61840,6 +61840,7 @@ zzztube.com,videoporn.tube##.b-random-column
 @@://xewl.xyz/8mei/js/*.js?16
 @@cc/o.js$third-party,script,domain=mpo18.com|xcupfox.com
 @@cdn.allflow.cn/assets/ad-utils.*.js$domain=flowus.cn
+@@cdn.doubao.com^$domain=doubao.com
 @@encrypt.key
 @@game.baifumeiba.com/login/ad/adex.js
 @@github.githubassets.com$domain=github.com
