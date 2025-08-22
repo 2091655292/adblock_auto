@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Scwy/d74mC0i2EjJc//NLA
+! Checksum: Oo1NZceuJAX/X9g2mS90FA
 ! Title: 自用去广告Adblock规则
-! Version: 20250821002050
-! Last modified: 2025-08-21 00:20:50
-! Total Count: 8993
+! Version: 20250822161556
+! Last modified: 2025-08-22 16:15:56
+! Total Count: 9065
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -605,7 +605,56 @@
 ##.ad--wrapper
 ##.ad-300
 ##.ad-area:not(.text-ad):not([data-group])
+##.ad-banner-leaderboard
+##.ad-banner-placeholder
+##.ad-banner-single
+##.ad-banner-smaller
+##.ad-banner-static
+##.ad-banner-top
+##.ad-banner-top-wrapper
+##.ad-banner-wrapper
+##.ad-banners
+##.ad-bar
+##.ad-bar-header
+##.ad-bb
+##.ad-before-header
+##.ad-below
+##.ad-below-images
+##.ad-below-player
+##.ad-belowarticle
+##.ad-bg
+##.ad-big
+##.ad-big-box
+##.ad-bigbanner
+##.ad-bigbillboard
+##.ad-bigbox
+##.ad-bigbox-double-inread
+##.ad-bigbox-fixed
+##.ad-bigsize
+##.ad-billboard
+##.ad-bline
+##.ad-block
+##.ad-block--300
+##.ad-block--leader
+##.ad-block-300
+##.ad-block-banner-container
+##.ad-block-big
+##.ad-block-bottom
+##.ad-block-btf
+##.ad-block-container
+##.ad-block-header
+##.ad-block-holder
+##.ad-block-inside
+##.ad-block-mod
+##.ad-block-section
+##.ad-block-square
+##.ad-block-sticky-ad
+##.ad-block-wide
+##.ad-block-wk
+##.ad-block-wrapper
+##.ad-block-wrapper-dev
 ##.ad-blocker-warning
+##.ad-blogads
 ##.ad-bottom-container
 ##.ad-box
 ##.ad-cls
@@ -629,7 +678,29 @@
 ##.ad-popup-content
 ##.ad-slot-placeholder
 ##.ad-slot-wrapper
+##.ad-slots-wrapper
+##.ad-slug
+##.ad-small
+##.ad-small-1
+##.ad-small-2
+##.ad-smallBP
+##.ad-source
+##.ad-sp
+##.ad-space
+##.ad-space-mpu-box
+##.ad-space-topbanner
 ##.ad-space:not(.textads)
+##.ad-spacing
+##.ad-span
+##.ad-speedbump
+##.ad-splash
+##.ad-sponsor
+##.ad-sponsor-large-container
+##.ad-sponsor-text
+##.ad-sponsored-feed-top
+##.ad-sponsored-links
+##.ad-sponsored-post
+##.ad-sponsors
 ##.ad-tabSplit
 ##.ad-title
 ##.ad-unit:not(.textads)
@@ -6987,6 +7058,7 @@ rockmods.net,rockmods.com##^script:has-text(AdBlock)
 rockmods.net,rockmods.com##script:has-text(AdBlock)
 rouwenge.vip,jpq.me#@#[class$="ad-container"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
+rule34-videos.com##div.ad-banner
 rule34gen.com##div.item.thumb:has(> iframe[id^="embed_"])
 rule34video.com##[class*="spot"]:has(script[src*="/lv/esnk"])
 rule34video.com##div.item.thumb:has(a[title="Advertisement"])
