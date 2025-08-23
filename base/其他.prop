@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Oo1NZceuJAX/X9g2mS90FA
+! Checksum: k/6btEHvhMbC3Fcox8moNw
 ! Title: 自用去广告Adblock规则
-! Version: 20250822161556
-! Last modified: 2025-08-22 16:15:56
-! Total Count: 9065
+! Version: 20250823093826
+! Last modified: 2025-08-23 09:38:27
+! Total Count: 9089
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -1055,14 +1055,34 @@
 ##.body > script + div[style*="135px;"]
 ##.bodyads
 ##.bordered-ad
+##.bottom-ads
 ##.bottom-ads-container
 ##.bottom-ads-content
+##.bottom-ads-sticky
+##.bottom-ads-wrapper
 ##.bottom-mobile-ad
+##.bottom-post-ad-space
+##.bottom-post-ads
 ##.bottom_ads
+##.bottom_adsense
+##.bottom_adspace
+##.bottom_banner_ad
+##.bottom_banner_advert_text
+##.bottom_bar_ads
 ##.bottom_fixed > a > img[src$=".gif"]
 ##.bottom_fixed > a[rel="nofollow"][target="_blank"]
+##.bottom_left_advert
+##.bottom_right_ad
+##.bottom_rightad
 ##.bottomads
 ##.bottommob.swiper-container-horizontal
+##.box-adsense
+##.box-adsense-top
+##.box-advert
+##.box-advertisement
+##.box-advertising
+##.box-adverts
+##.box-bannerads
 ##.boxAd
 ##.breakout-ad
 ##.button-ad
@@ -1819,6 +1839,7 @@
 ##.popup-box-ads
 ##.popup.popup-abk
 ##.popup.popup-abk + div[style]
+##.post-ad-space
 ##.post-card > img[src$=".gif"][data-action="zoom"][class="blog-background"]
 ##.post-card[data-url$=".gif"]
 ##.post-content + .article-bottom-apps
@@ -7058,7 +7079,10 @@ rockmods.net,rockmods.com##^script:has-text(AdBlock)
 rockmods.net,rockmods.com##script:has-text(AdBlock)
 rouwenge.vip,jpq.me#@#[class$="ad-container"]
 rshzm.com##[style*="width"][style*=":"][style*="100%"]
+rule34-videos.com##[class*="-ad-"]
+rule34-videos.com##[class^="ad-"]
 rule34-videos.com##div.ad-banner
+rule34-videos.com##div.post-ad-wrapper
 rule34gen.com##div.item.thumb:has(> iframe[id^="embed_"])
 rule34video.com##[class*="spot"]:has(script[src*="/lv/esnk"])
 rule34video.com##div.item.thumb:has(a[title="Advertisement"])
