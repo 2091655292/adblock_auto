@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: k/6btEHvhMbC3Fcox8moNw
+! Checksum: bbD6fZi6b8WEfliGrnDteQ
 ! Title: 自用去广告Adblock规则
-! Version: 20250823093826
-! Last modified: 2025-08-23 09:38:27
-! Total Count: 9089
+! Version: 20250901232731
+! Last modified: 2025-09-01 23:27:31
+! Total Count: 9092
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -2386,6 +2386,7 @@
 ##a[href][target="_blank"] > img[src*="//jusotop.com/"][alt]
 ##a[href][target="_blank"] > img[src*="cn-chengdu.aliyuncs.com/"][alt]
 ##a[href][target="_blank"] > img[src*="img.souche.com"][src$=".gif"]
+##a[href][target="_blank"] > img[src*="imgsa.baidu.com/forum/pic/item/"]
 ##a[href][target="_blank"] > img[src="https://vip2.loli.io"]
 ##a[href][target="_blank"] > img[src][alt="xxx"]
 ##a[href][target="_blank"] > img[src][class="topline"]
@@ -2814,6 +2815,7 @@
 ##font > .topfixed
 ##gpt-ad
 ##guj-ad
+##head + body > div[style=" max-width:990px; margin:0 auto;"]:not([class]):not([id]) > a
 ##header + #main > div[class][id^="rd"][data-v-app]
 ##hl-adsense
 ##html > div[class][style^="pointer-events: none; position: absolute; top: 0px; left: 0px; width:"]
@@ -5513,6 +5515,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://hongosi.xn--*.com/*/mvp*.js$third-party
 ://hongosi.xn--*.com/mvp*.js$third-party
 ://hp.hchus*dmew.top$third-party
+://hsck*/nnn*/1$script
 ://im.ifengsong888.com/*.gif
 ://im.ifengsong888.com/*.jpg
 ://im.yfled888.com/*.gif
