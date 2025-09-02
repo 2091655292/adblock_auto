@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: bbD6fZi6b8WEfliGrnDteQ
+! Checksum: 3FBKbW3Gw8RFgqWzl4zLzA
 ! Title: 自用去广告Adblock规则
-! Version: 20250901232731
-! Last modified: 2025-09-01 23:27:31
-! Total Count: 9092
+! Version: 20250902213103
+! Last modified: 2025-09-02 21:31:04
+! Total Count: 9096
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -486,6 +486,8 @@
 ###popup-overlay1.popup-overlay
 ###popupAd
 ###popupBottomAd
+###popupLbAds
+###popupRbAds
 ###popup_ad_wrapper
 ###popupadunit
 ###rightAD
@@ -792,6 +794,8 @@
 ##.adalert-overlayer
 ##.adalert-toplayer
 ##.adamazon
+##.adaptation > [class*="wrap"]
+##.adaptation.recommend-wrap
 ##.adarea
 ##.adarea-long
 ##.adarticle
