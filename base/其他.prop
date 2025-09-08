@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 3FBKbW3Gw8RFgqWzl4zLzA
+! Checksum: dcC3qhcgKx5Nm/gd3w5R+w
 ! Title: 自用去广告Adblock规则
-! Version: 20250902213103
-! Last modified: 2025-09-02 21:31:04
-! Total Count: 9096
+! Version: 20250908194153
+! Last modified: 2025-09-08 19:41:53
+! Total Count: 9099
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -2491,6 +2491,7 @@
 ##a[target="_blank"] > img[src$="-150-300.gif"]
 ##a[target="_blank"] > img[src$="-150x300.gif"]
 ##a[target="_blank"] > img[src$="/150x300.gif"]
+##a[target="_blank"] > img[src^="//t4.wnimg1.ru/data/"]
 ##a[target="_blank"][href*="//ads.traffichaus.com/"]
 ##a[target="_blank"][href*="/jump-"] > img[src][style]
 ##a[target="_blank"][href="/adjump/acg_show_right.html"]
@@ -6383,9 +6384,9 @@ hentai4manga.com###innerContent div.article-top + div.textbox:not(:has(> div.tex
 hentai4manga.com###innerContent div[style]:has(> div[id^="banner"])
 hentaicity.com##[class^="adn-posty_"]
 hentaicloud.com##main > section:has(> div.container > div.row > div.col-6 > div.manga-item > div.thumbnail > a[href^="https://www.nutaku.net/signup/landing/"])
-hentaicomic.ru,hm15.lol,hm16.lol,hm17.lol,hm18.lol,hm19.lol,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wn01.cc,wn01.uk,wn02.cc,wn02.uk,wn03.cc,wn03.uk,wn04.cc,wn04.uk,wn05.uk,wnacg.com,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru##a[href*=".xyz?ch=ssmh"],a[href^="https://l.hyenadata.com"],img[style][alt][src*="/data/"][src$=".php"],img[style][alt][src*="/data/"][src$=".gif"]
-hentaicomic.ru,hm15.lol,hm16.lol,hm17.lol,hm18.lol,hm19.lol,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wn01.cc,wn01.uk,wn02.cc,wn02.uk,wn03.cc,wn03.uk,wn04.cc,wn04.uk,wn05.uk,wnacg.com,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru##a[href*="?ch=ssmh"]
-hentaicomic.ru,hm15.lol,hm16.lol,hm17.lol,hm18.lol,hm19.lol,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wn01.cc,wn01.uk,wn02.cc,wn02.uk,wn03.cc,wn03.uk,wn04.cc,wn04.uk,wn05.uk,wnacg.com,wnacg.ru,wnacg.top,wnacg01.ru,wnacg02.ru,wnacg03.ru,wnacg04.ru##script + div:not([id]):not([class]):not([style])
+hentaicomic.ru,hm15.lol,hm16.lol,hm17.lol,hm18.lol,hm19.lol,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wn01.cc,wn01.ru,wn01.uk,wn02.cc,wn02.ru,wn02.uk,wn03.cc,wn03.ru,wn03.uk,wn04.cc,wn04.ru,wn04.uk,wn05.uk,wnacg.com,wnacg.ru,wnacg.top,wnacg01.cc,wnacg01.ru,wnacg02.cc,wnacg02.ru,wnacg03.cc,wnacg03.ru,wnacg04.cc,wnacg04.ru##a[href*=".xyz?ch=ssmh"],a[href^="https://l.hyenadata.com"],img[style][alt][src*="/data/"][src$=".php"],img[style][alt][src*="/data/"][src$=".gif"]
+hentaicomic.ru,hm15.lol,hm16.lol,hm17.lol,hm18.lol,hm19.lol,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wn01.cc,wn01.ru,wn01.uk,wn02.cc,wn02.ru,wn02.uk,wn03.cc,wn03.ru,wn03.uk,wn04.cc,wn04.ru,wn04.uk,wn05.uk,wnacg.com,wnacg.ru,wnacg.top,wnacg01.cc,wnacg01.ru,wnacg02.cc,wnacg02.ru,wnacg03.cc,wnacg03.ru,wnacg04.cc,wnacg04.ru##a[href*="?ch=ssmh"]
+hentaicomic.ru,hm15.lol,hm16.lol,hm17.lol,hm18.lol,hm19.lol,htcomic.top,htmanga.top,htmanga2.top,htmanga3.top,htmanga4.top,htmanga5.top,ssmh01.top,ssmh02.top,wn01.cc,wn01.ru,wn01.uk,wn02.cc,wn02.ru,wn02.uk,wn03.cc,wn03.ru,wn03.uk,wn04.cc,wn04.ru,wn04.uk,wn05.uk,wnacg.com,wnacg.ru,wnacg.top,wnacg01.cc,wnacg01.ru,wnacg02.cc,wnacg02.ru,wnacg03.cc,wnacg03.ru,wnacg04.cc,wnacg04.ru##script + div:not([id]):not([class]):not([style])
 hentaicomics.pro##.single-portfolio:has(.xxx-banner)
 hentaienglish.com,wallpaperwaifu.com##.blog-items > .post-item.site__col:has(> .ads-between-post)
 hentaifreak.org###content-masonry > article:has(> div.post-thumbnail-container > a[href^="https://hentaied.com/"])
@@ -6650,6 +6651,8 @@ ltxswu.me##^script:has-text(_style_middle)
 ltxswu.me##script:has-text(_17mb)
 ltxswu.me##script:has-text(_style_middle)
 luoqiuzw.com##.show-app2
+luxuretv.com###ltvModal
+luxuretv.com##div[class^="adver"]
 m.123dua.com###upload-container
 m.99.com.cn##.jump_a
 m.bilibili.com##.home-float-openapp.launch-app-btn
