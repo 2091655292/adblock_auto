@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: OZWU502TmQKzwOJ/gZMHxQ
+! Checksum: T54pymwb5LFKezX6ZwBImQ
 ! Title: 自用去广告Adblock规则
-! Version: 20250918151128
-! Last modified: 2025-09-18 15:11:28
-! Total Count: 9135
+! Version: 20250923172832
+! Last modified: 2025-09-23 17:28:32
+! Total Count: 9142
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -17,6 +17,8 @@
 ###IC4-ad
 ###IFrameAd
 ###IFrameAd1
+||ddyveshu.cc/*/*ll*.js
+@@||ddyveshu.cc/js$domain=ddyveshu.cc
 ###IK-ad-area
 ###IK-ad-block
 ###IM_AD
@@ -1142,6 +1144,7 @@
 ##.dfp_frame
 ##.div-gpt-ad:not([style^="width: 1px; height: 1px;"])
 ##.div_pop
+##.dl[style] > #close_dl[style]
 ##.dlad
 ##.ds-text-red
 ##.ds-top-info-main-content
@@ -5429,6 +5432,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*biquge*/m.js
 ://*biquge*/mm.js$script
 ://*bqg.com/*/*.php
+://*cdn*jm18*/static/resources/images/*x*.gif
 ://*dianjiangxin.*/js/mc.js?
 ://*diany*/top.js
 ://*dilidili*.*/js/*.js?ver=
@@ -5447,6 +5451,10 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 ://*huameihangkong.*/js/bottom.js
 ://*iyxdm.*/js/bottom_dk.js
 ://*jiezhong.*/js/f*.js$~third-party
+://*jm18*/media/albums/f_*.jpg?*=
+://*jm18*/static/resources/images/*-*(*).gif
+://*jm18*/static/resources/images/*300x*.gif
+://*jm18*/static/resources/images/*x*250*.gif
 ://*laiksw*/staticjs/min.js
 ://*lakanshu.*/layjs/$script,~third-party
 ://*llevven*/*0/*ll*.js
@@ -9000,6 +9008,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 ||wendypha.com^$third-party
 ||wetuu8r.com^
 ||whois.pconline.com.cn^$third-party
+||wijphyfu.com^
 ||winniephc.com^
 ||wonder.xhamster.com^$popup
 ||woozooo.com/*/img/*.js$third-party
