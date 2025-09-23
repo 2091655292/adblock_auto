@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: T54pymwb5LFKezX6ZwBImQ
+! Checksum: 7RfMLYv108WJXc7KZC2vbQ
 ! Title: 自用去广告Adblock规则
-! Version: 20250923172832
-! Last modified: 2025-09-23 17:28:32
-! Total Count: 9142
+! Version: 20250923182039
+! Last modified: 2025-09-23 18:20:39
+! Total Count: 9144
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -17,8 +17,6 @@
 ###IC4-ad
 ###IFrameAd
 ###IFrameAd1
-||ddyveshu.cc/*/*ll*.js
-@@||ddyveshu.cc/js$domain=ddyveshu.cc
 ###IK-ad-area
 ###IK-ad-block
 ###IM_AD
@@ -5721,6 +5719,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 @@||d3u598arehftfk.cloudfront.net/prebid_hb_1670_2319.js$domain=blog.wiki-topia.com
 @@||d3u598arehftfk.cloudfront.net/prebid_hb_1670_2903.js$domain=blog.carstopia.net|blog.coinsvalue.net|blog.cookinguide.net|blog.freeoseocheck.com|blog.makeupguide.net
 @@||d3u598arehftfk.cloudfront.net/prebid_hb_3922_6541.js$domain=adsy.pw|playstore.pw
+@@||ddyveshu.cc/js$domain=ddyveshu.cc
 @@||ddzswov1e84sp.cloudfront.net^$script,domain=free-content.pro
 @@||dn0qt3r0xannq.cloudfront.net/*/default/prebid-library.js$domain=nationalreview.com
 @@||dn0qt3r0xannq.cloudfront.net/*/default/prebid-load.js$domain=nationalreview.com
@@ -8248,6 +8247,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 ||dayu778.com/assets/publish/$script
 ||dbwmpqd.cn^
 ||dcba.zle.com^
+||ddyveshu.cc/*/*ll*.js
 ||deeginews.com^
 ||deliver.ptgncdn.com^
 ||demand.supply^$script
