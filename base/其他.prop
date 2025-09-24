@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 7RfMLYv108WJXc7KZC2vbQ
+! Checksum: LtQX1JQOzCmI+z5RGzPnoA
 ! Title: 自用去广告Adblock规则
-! Version: 20250923182039
-! Last modified: 2025-09-23 18:20:39
-! Total Count: 9144
+! Version: 20250924112338
+! Last modified: 2025-09-24 11:23:39
+! Total Count: 9150
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -2642,6 +2642,7 @@
 ##div.down-list > ul > [href]
 ##div.down-list > ul > li > dt
 ##div.fl-banner
+##div.flex-1.order-first > div[style="display: flex;flex-wrap: wrap;margin: 5px auto; gap: 10px;justify-content: center; text-align: center"]
 ##div.flex.justify-center > ins[id]
 ##div.four-activity-list > .grid
 ##div.fp-controls > .fp-brand
@@ -2660,6 +2661,7 @@
 ##div.pb-0:not(.section) > div.container:not([id]) > div:not([id])
 ##div.rm-one.rm-list > a
 ##div.second-activity-list > .i-img3
+##div.sm\:container[\:class] > div[style]:not([id]):not([class])
 ##div.sponsor-outer
 ##div.stui_md > .list-box
 ##div.suiji.bottom,div.suiji.topad
@@ -2908,6 +2910,7 @@
 ##iframe[src^="/adv-agent.php?spot="]
 ##iframe[src^="/ai/s/s/su.php"]
 ##iframe[src^="/frd5/s/s/su.php?"]
+##iframe[src^="/herebyad"]
 ##iframe[src^="http://avtosfer.az/banner"]
 ##iframe[src^="https://ad.adriver.ru/"]
 ##iframe[src^="https://adsxyz.com"]
@@ -3181,6 +3184,7 @@
 ##script[src*=".cn/slot?"] + center
 ##script[src*=".icu/"] + script + script + div[id]
 ##script[src*="/lv/esnk/"] + iframe[scrolling="no"]
+##script[src^="//"][src$="bn.js"][async] + div[style]:not([class]):not([id])
 ##script[src^="https://tongji.trafficmanager.net/"] + div[id^="a17"]
 ##section > .friendlylink > .w
 ##section > span[style="display:block;clear:both;overflow:hidden;z-index:2147483647"]
@@ -5158,6 +5162,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.dialogJmodal
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.thread_recommend
 1111.baidu.com,jump.bdimg.com,tieba.baidu.com,tieba.com,xingqu.baidu.com##.topic_list_box
+115cdn.com###js_common_sharing_pd
 118pan.com##.card-body:has(script[src*="/i/openjs/"])
 11fzw.com##.index-top-ad
 11fzw.com##a[href*="go.php?url="][target="_blank"] > img[src]
@@ -8102,6 +8107,7 @@ zzyiwan.com##div[style="width: 100%; overflow: hidden; padding-top: 0px; positio
 ||baomidou.com/entry.Cx1FBVJX.mjs
 ||bathingdelicatedemise.com^
 ||bbangads.*.net^$third-party
+||bcaahcahnt.com^
 ||bdhtfxzke.icu^
 ||bds82.top^
 ||beap-bc.yahoo.com^
