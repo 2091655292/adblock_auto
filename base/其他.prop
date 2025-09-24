@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: LtQX1JQOzCmI+z5RGzPnoA
+! Checksum: 1HZdGdlo8CMHB73/KblOOw
 ! Title: 自用去广告Adblock规则
-! Version: 20250924112338
-! Last modified: 2025-09-24 11:23:39
-! Total Count: 9150
+! Version: 20250925044758
+! Last modified: 2025-09-25 04:47:58
+! Total Count: 9156
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -2434,6 +2434,7 @@
 ##a[href^="https://i.vip.po18ad.com/"][target="_blank"]
 ##a[href^="https://igt17.net"]
 ##a[href^="https://l.hyenadata.com"]
+##a[href^="https://metasoco.com/"][href$=".apk"][style*=".gif"]
 ##a[href^="https://mnwkcf.pojuko.buzz"]
 ##a[href^="https://porncamtab.com/xrealgirl_live"]
 ##a[href^="https://ra10.xyz/"]
@@ -2897,6 +2898,7 @@
 ##iframe[src*="/s/s/su.php?t="][width="300"][height="100"]
 ##iframe[src*="/smartpop/"]
 ##iframe[src*="adxserve.com"]
+##iframe[src*="colorlessrush.com"]
 ##iframe[src*="d000d.com/"]
 ##iframe[src*="deliver.ptgncdn.com"]
 ##iframe[src*="listeamed.net/"]
@@ -3406,6 +3408,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/$domain=huang1111.cn
 .com/*.js$third-party,domain=uaa001.com|uaa002.com|uaa003.com|uaa004.com|uaa005.com
 .com/*.txt$third-party,domain=1anime.me
+.com/*/amdbacs/jkarme$third-party,~image,~media
+.com/*/asf/qur$third-party,~image,~media
 .com/*/ddd1.js
 .com/*/ddd2.js
 .com/*/ddd3.js
@@ -3416,6 +3420,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/*/js/8*/8*/8*/8*?r=https$third-party
 .com/*/ua.php$third-party
 .com/*/uagu.php$third-party
+.com/*/wfohki/di$third-party,~image,~media
 .com/*bd*.js$script,domain=ifeng.com
 .com/*interstitial*.js$third-party,script
 .com/1.js$script,~third-party
@@ -3458,6 +3463,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/ds*_t3.js?$third-party
 .com/ds*_t9.js?$third-party
 .com/en/*?id=20*&*=*=$third-party,~media,~image
+.com/en/fuvc/wm?*=*&*%*=$third-party,~image,~media
 .com/ev/*?type=events&event=
 .com/ev/*?type=impressions
 .com/facaishen.js
