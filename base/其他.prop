@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: 1HZdGdlo8CMHB73/KblOOw
+! Checksum: Pihggef63uxZvCllX17Row
 ! Title: 自用去广告Adblock规则
-! Version: 20250925044758
-! Last modified: 2025-09-25 04:47:58
-! Total Count: 9156
+! Version: 20250925134328
+! Last modified: 2025-09-25 13:43:29
+! Total Count: 9158
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -3462,8 +3462,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/ds*_t2.js?$third-party
 .com/ds*_t3.js?$third-party
 .com/ds*_t9.js?$third-party
-.com/en/*?id=20*&*=*=$third-party,~media,~image
-.com/en/fuvc/wm?*=*&*%*=$third-party,~image,~media
+.com/en/*?id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/en/*f*/*?*&*=*%*=$third-party,~image,~media,~stylesheet
 .com/ev/*?type=events&event=
 .com/ev/*?type=impressions
 .com/facaishen.js
@@ -6843,6 +6843,8 @@ missav.men,missav.ooo##div[class] + div[style*="center"]:not([class]):not([id])
 missav.men,missav.ooo##div[style^="position: fixed; bottom: 0px; left: 0px;"]
 missav2.cfd##div.common_banner
 missav2.cfd##div.thumbnail.group:has([onerror="javascript:this.src="])
+missav2.icu,missav2.one##^script:has-text(广告)
+missav2.icu,missav2.one##script:has-text(广告)
 mobile.baidu.com##div[class*="card-recommend"]
 mobile.baidu.com##div[class^="detail-banner-"]
 mobile.baidu.com,moonshot.cn,xzhao.vip#@#body > script + .app
