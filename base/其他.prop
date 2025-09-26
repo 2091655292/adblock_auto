@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: UQPPv9IDhZF3t/a0a9xKNw
+! Checksum: aW9eU07hGPisbkjr29orbg
 ! Title: 自用去广告Adblock规则
-! Version: 20250926145323
-! Last modified: 2025-09-26 14:53:23
-! Total Count: 9165
+! Version: 20250926185001
+! Last modified: 2025-09-26 18:50:01
+! Total Count: 9167
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -3449,6 +3449,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/api/spots/*?p=1&s1=$third-party
 .com/as/d/*.js
 .com/assets/public/chart.1.js$script,~third-party
+.com/b*X*.*/*O*/*O*/$third-party,~image,~media,~stylesheet
 .com/b*X-*.*/*/*/*/*/$third-party,~image,~media,~stylesheet
 .com/b*X.*/*/*/*/*/$third-party,~image,~media,~stylesheet
 .com/bokan/bokan.js$script
@@ -5709,6 +5710,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 @@mwfimsvfast*/static/upload/ads$image
 @@p2p.$domain=tecms.net
 @@tangsanshu.net/js/comm.js
+@@video.m3u8
 @@ysjdm.net/template/conch/asset/js/hlhtml.
 @@|http*://*?$third-party,domain=www.pornhub.com
 @@||150075.com^$domain=tecms.net
