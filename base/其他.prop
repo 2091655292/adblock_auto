@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: xwBRgKBxW8meOynSFd49rQ
+! Checksum: UQPPv9IDhZF3t/a0a9xKNw
 ! Title: 自用去广告Adblock规则
-! Version: 20250926124348
-! Last modified: 2025-09-26 12:43:48
-! Total Count: 9162
+! Version: 20250926145323
+! Last modified: 2025-09-26 14:53:23
+! Total Count: 9165
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -3473,6 +3473,9 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/facaishen1.js
 .com/float_down.js?17$third-party
 .com/footmenu.js$~third-party
+.com/get/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/get/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
+.com/get/*?*id=20*&*=*=1$third-party,~image,~media,~stylesheet
 .com/getMongoAd.php?$third-party
 .com/gg.js$script
 .com/gu1ding.js$script,~third-party
