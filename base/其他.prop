@@ -1,9 +1,9 @@
 [Adblock Plus 2.0]
-! Checksum: Pihggef63uxZvCllX17Row
+! Checksum: xwBRgKBxW8meOynSFd49rQ
 ! Title: 自用去广告Adblock规则
-! Version: 20250925134328
-! Last modified: 2025-09-25 13:43:29
-! Total Count: 9158
+! Version: 20250926124348
+! Last modified: 2025-09-26 12:43:48
+! Total Count: 9162
 ###ADbox
 ###Ad-Container
 ###Ad-Content
@@ -3449,6 +3449,8 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/api/spots/*?p=1&s1=$third-party
 .com/as/d/*.js
 .com/assets/public/chart.1.js$script,~third-party
+.com/b*X-*.*/*/*/*/*/$third-party,~image,~media,~stylesheet
+.com/b*X.*/*/*/*/*/$third-party,~image,~media,~stylesheet
 .com/bokan/bokan.js$script
 .com/bug/log/$third-party
 .com/candy*.js$third-party
@@ -3462,8 +3464,9 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 .com/ds*_t2.js?$third-party
 .com/ds*_t3.js?$third-party
 .com/ds*_t9.js?$third-party
-.com/en/*?id=20*&*=*=$third-party,~media,~image,~stylesheet
-.com/en/*f*/*?*&*=*%*=$third-party,~image,~media,~stylesheet
+.com/en/*?*&*id=20*&*=*=$third-party,~media,~image,~stylesheet
+.com/en/*?*id=20*&*=*=0$third-party,~image,~media,~stylesheet
+.com/en/*?*id=20*&*=*=1$third-party,~image,~media,~stylesheet
 .com/ev/*?type=events&event=
 .com/ev/*?type=impressions
 .com/facaishen.js
@@ -5661,6 +5664,7 @@ $third-party,~script,~stylesheet,domain=xs77.cc|xs77.com|xs77.buzz|xs77.cn|xs77.
 @@/index.m3u8
 @@/js/popup.js?advertiser=popup$domain=netflav.com
 @@/matomo.js$domain=github.com|trcet77.com
+@@/playlist.m3u8
 @@/static/chunks/$domain=wenxiaobai.com
 @@/template/conch/asset/js/hlhtml.
 @@/usr/themes/Mirages/css/
