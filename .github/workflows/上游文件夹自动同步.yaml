@@ -10,7 +10,7 @@ on:
 
 jobs:
   selective_sync:
-    name: Sync specific folder from upstream
+    name: Sync Rules folder from upstream
     runs-on: ubuntu-latest
     if: ${{ github.event.repository.fork }}
 
@@ -28,15 +28,15 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      # 步骤3: 同步特定文件夹
-      - name: Sync specific folder
+      # 步骤3: 同步Rules文件夹
+      - name: Sync Rules folder
         env:
-          UPSTREAM_REPO: lingeringsound/adblock_auto  # 修改为你的上游仓库
+          UPSTREAM_REPO: lingeringsound/adblock_auto  # 上游仓库
           UPSTREAM_BRANCH: main           # 上游分支
-          SOURCE_FOLDER: Rules              # 上游仓库中的源文件夹路径
-          TARGET_FOLDER: Rules              # 你仓库中的目标文件夹路径
+          SOURCE_FOLDER: Rules            # 上游仓库中的Rules文件夹
+          TARGET_FOLDER: Rules            # 你仓库中的Rules文件夹
         run: |
-          echo "开始同步文件夹..."
+          echo "开始同步Rules文件夹..."
           echo "上游仓库: $UPSTREAM_REPO"
           echo "源文件夹: $SOURCE_FOLDER"
           echo "目标文件夹: $TARGET_FOLDER"
@@ -47,17 +47,25 @@ jobs:
           # 获取上游仓库内容
           git fetch upstream $UPSTREAM_BRANCH
           
+          # 调试信息：列出上游仓库的所有文件和文件夹
+          echo "=== 上游仓库根目录内容 ==="
+          git ls-tree --name-only upstream/$UPSTREAM_BRANCH
+          
+          # 调试信息：检查Rules文件夹是否存在
+          echo "=== 检查Rules文件夹 ==="
+          git ls-tree -d upstream/$UPSTREAM_BRANCH $SOURCE_FOLDER || echo "未找到文件夹: $SOURCE_FOLDER"
+          
           # 确保目标目录存在
           mkdir -p $TARGET_FOLDER
           
           # 检查源文件夹在上游是否存在
-          if git ls-tree --name-only upstream/$UPSTREAM_BRANCH | grep -q "^$SOURCE_FOLDER/"; then
-            echo "找到源文件夹，开始同步..."
+          if git ls-tree -d upstream/$UPSTREAM_BRANCH $SOURCE_FOLDER >/dev/null 2>&1; then
+            echo "找到Rules文件夹，开始同步..."
             
             # 删除目标文件夹中的所有内容（保留文件夹本身）
             rm -rf $TARGET_FOLDER/*
             
-            # 使用git checkout获取上游的特定文件夹内容
+            # 使用git checkout获取上游的Rules文件夹内容
             git checkout upstream/$UPSTREAM_BRANCH -- $SOURCE_FOLDER
             
             # 如果源文件夹和目标文件夹路径不同，需要移动文件
@@ -73,12 +81,17 @@ jobs:
             else
               echo "检测到文件变更，准备提交"
               git add $TARGET_FOLDER/
-              git commit -m "chore: sync $TARGET_FOLDER from upstream $(date +'%Y-%m-%d %H:%M:%S')"
+              git commit -m "chore: sync Rules folder from upstream $(date +'%Y-%m-%d %H:%M:%S')"
               git push origin main
-              echo "同步完成并已推送"
+              echo "Rules文件夹同步完成并已推送"
             fi
           else
             echo "错误: 上游仓库中未找到文件夹 '$SOURCE_FOLDER'"
+            echo "可能的原因:"
+            echo "1. 文件夹名称大小写不匹配"
+            echo "2. 文件夹不在根目录，而是在子目录中"
+            echo "3. 上游分支名称不正确"
+            echo "4. 上游仓库地址不正确"
             exit 1
           fi
           
@@ -89,9 +102,5 @@ jobs:
       - name: Error handling
         if: failure()
         run: |
-          echo "[错误] 文件夹同步失败"
-          echo "可能的原因:"
-          echo "1. 上游仓库不存在或无法访问"
-          echo "2. 指定的文件夹在上游仓库中不存在"
-          echo "3. Git操作权限不足"
-          echo "请检查工作流日志获取详细信息"
+          echo "[错误] Rules文件夹同步失败"
+          echo "请查看上面的调试信息确定具体原因"
