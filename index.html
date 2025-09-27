@@ -99,11 +99,13 @@
 	<p id="gitcode2" style="display: none;" >https://gitcode.net/weixin_45617236/adblock_auto/-/raw/main/Rules/adblock_auto_lite.txt</p>
 	<p id="gitlink1" style="display: none;" >https://cdn09022024.gitlink.org.cn/api/v1/repos/keytoolazy/adblock_auto/raw/Rules/adblock_auto.txt?ref=main&access_token=9aa2be1250ca725d0ef1b1f638fb3de408a11335</p>
 	<p id="gitlink2" style="display: none;" >https://cdn09022024.gitlink.org.cn/api/v1/repos/keytoolazy/adblock_auto/raw/Rules/adblock_auto_lite.txt?ref=main&access_token=9aa2be1250ca725d0ef1b1f638fb3de408a11335</p>
+	<p id="tencentcdn1" style="display: none;" >https://adblock-auto-cdn.ssdxftx.icu/Rules/adblock_auto.txt</p>
+	<p id="tencentcdn2" style="display: none;" >https://adblock-auto-cdn.ssdxftx.icu/Rules/adblock_auto_lite.txt</p>
 </div>
 
 <div id="Rules_table" class="Rules_table" >
 		<h3 style="text-align:center;">点击可复制订阅链接</h3>
-		<p style="text-align:center; font-size:13px;">国内订阅推荐优先排名 Github加速订阅链接(能用就用，不能再换Gitcode) &gt; Gitlink(需手动同步) = Gitcode(需手动同步) &gt; Github(国内有的无法访问，需要梯子) </p>
+		<p style="text-align:center; font-size:13px;">国内订阅推荐优先排名 腾讯云全球CDN加速订阅 &gt; Github加速订阅链接(能用就用，不能再换Gitcode) &gt; Gitlink(需手动同步) = Gitcode(需手动同步) &gt; Github(国内有的无法访问，需要梯子) </p>
 <table id="table" >
 	<thead>
 <tr>
@@ -112,6 +114,7 @@
 	<th>Github加速订阅链接</th>
 	<th>Gitcode订阅链接</th>
 	<th>Gitlink订阅链接</th>
+	<th>腾讯云全球CDN加速订阅</th>
 </tr>
 	</thead>
 <tbody>
@@ -121,6 +124,7 @@
 	<td><button onclick="copyTextgithubfast1()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgitcode1()" style="text-align:center; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgitlink1()" style="text-align:center; font-size:10px;" > 点击复制 </button> </td>
+	<td><button onclick="copyTexttencentcdn1()" style="text-align:center; font-size:10px;" > 点击复制 </button> </td>
 </tr>
 	<tr>
 	<td>混合规则(精简版)</td>
@@ -128,6 +132,7 @@
 	<td><button onclick="copyTextgithubfast2()" style="text-align:left; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgitcode2()" style="text-align:center; font-size:10px;" > 点击复制 </button></td>
 	<td><button onclick="copyTextgitlink2()" style="text-align:center; font-size:10px;" > 点击复制 </button> </td>
+	<td><button onclick="copyTexttencentcdn2()" style="text-align:center; font-size:10px;" > 点击复制 </button> </td>
 </tr>
 		</tbody>
 	</table>
@@ -272,6 +277,26 @@ function copyTextgitlink2() {
 	inputElement.select();
 		document.execCommand("copy");
 	document.body.removeChild(inputElement);
+}
+function copyTexttencentcdn1() {
+	var copyText = document.getElementById("tencentcdn1");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+	alert("复制内容: "+copyText.textContent+" ");
+}
+function copyTexttencentcdn2() {
+	var copyText = document.getElementById("tencentcdn2");
+	var inputElement = document.createElement("input");
+	inputElement.setAttribute("value", copyText.textContent);
+		document.body.appendChild(inputElement);
+	inputElement.select();
+		document.execCommand("copy");
+	document.body.removeChild(inputElement);
+	alert("复制内容: "+copyText.textContent+" ");
 }
 </script>
 
