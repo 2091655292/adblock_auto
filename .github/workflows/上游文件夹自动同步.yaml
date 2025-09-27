@@ -31,7 +31,7 @@ jobs:
       # 步骤3: 同步特定文件夹
       - name: Sync specific folder
         env:
-          UPSTREAM_REPO: cmliu/edgetunnel  # 修改为你的上游仓库
+          UPSTREAM_REPO: lingeringsound/adblock_auto  # 修改为你的上游仓库
           UPSTREAM_BRANCH: main           # 上游分支
           SOURCE_FOLDER: Rules              # 上游仓库中的源文件夹路径
           TARGET_FOLDER: Rules              # 你仓库中的目标文件夹路径
