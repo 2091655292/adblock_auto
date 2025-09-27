@@ -105,7 +105,7 @@
 
 <div id="Rules_table" class="Rules_table" >
 		<h3 style="text-align:center;">点击可复制订阅链接</h3>
-		<p style="text-align:center; font-size:13px;">国内订阅推荐优先排名 腾讯云全球CDN加速订阅 &gt; Github加速订阅链接(能用就用，不能再换Gitcode) &gt; Gitlink(需手动同步) = Gitcode(需手动同步) &gt; Github(国内有的无法访问，需要梯子) </p>
+		<p style="text-align:center; font-size:13px;">国内订阅推荐优先排名 腾讯云CDN加速订阅 &gt; Github加速订阅链接(能用就用，不能再换Gitcode) &gt; Gitlink(需手动同步) = Gitcode(需手动同步) &gt; Github(国内有的无法访问，需要梯子) </p>
 <table id="table" >
 	<thead>
 <tr>
@@ -114,7 +114,7 @@
 	<th>Github加速订阅链接</th>
 	<th>Gitcode订阅链接</th>
 	<th>Gitlink订阅链接</th>
-	<th>腾讯云全球CDN加速订阅</th>
+	<th>腾讯云CDN加速订阅</th>
 </tr>
 	</thead>
 <tbody>
@@ -286,7 +286,6 @@ function copyTexttencentcdn1() {
 	inputElement.select();
 		document.execCommand("copy");
 	document.body.removeChild(inputElement);
-	alert("复制内容: "+copyText.textContent+" ");
 }
 function copyTexttencentcdn2() {
 	var copyText = document.getElementById("tencentcdn2");
@@ -296,7 +295,6 @@ function copyTexttencentcdn2() {
 	inputElement.select();
 		document.execCommand("copy");
 	document.body.removeChild(inputElement);
-	alert("复制内容: "+copyText.textContent+" ");
 }
 </script>
 
