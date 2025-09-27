@@ -1,0 +1,97 @@
+name: Selective Folder Sync
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天UTC时间00:00运行
+  workflow_dispatch:     # 允许手动触发
+
+jobs:
+  selective_sync:
+    name: Sync specific folder from upstream
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.fork }}
+
+    steps:
+      # 步骤1: 检出当前仓库
+      - name: Checkout target repo
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # 获取完整历史记录
+
+      # 步骤2: 设置Git用户信息
+      - name: Setup Git user
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      # 步骤3: 同步特定文件夹
+      - name: Sync specific folder
+        env:
+          UPSTREAM_REPO: cmliu/edgetunnel  # 修改为你的上游仓库
+          UPSTREAM_BRANCH: main           # 上游分支
+          SOURCE_FOLDER: Rules              # 上游仓库中的源文件夹路径
+          TARGET_FOLDER: Rules              # 你仓库中的目标文件夹路径
+        run: |
+          echo "开始同步文件夹..."
+          echo "上游仓库: $UPSTREAM_REPO"
+          echo "源文件夹: $SOURCE_FOLDER"
+          echo "目标文件夹: $TARGET_FOLDER"
+          
+          # 添加上游仓库为远程源
+          git remote add upstream https://github.com/$UPSTREAM_REPO.git
+          
+          # 获取上游仓库内容
+          git fetch upstream $UPSTREAM_BRANCH
+          
+          # 确保目标目录存在
+          mkdir -p $TARGET_FOLDER
+          
+          # 检查源文件夹在上游是否存在
+          if git ls-tree --name-only upstream/$UPSTREAM_BRANCH | grep -q "^$SOURCE_FOLDER/"; then
+            echo "找到源文件夹，开始同步..."
+            
+            # 删除目标文件夹中的所有内容（保留文件夹本身）
+            rm -rf $TARGET_FOLDER/*
+            
+            # 使用git checkout获取上游的特定文件夹内容
+            git checkout upstream/$UPSTREAM_BRANCH -- $SOURCE_FOLDER
+            
+            # 如果源文件夹和目标文件夹路径不同，需要移动文件
+            if [ "$SOURCE_FOLDER" != "$TARGET_FOLDER" ]; then
+              echo "移动文件从 $SOURCE_FOLDER 到 $TARGET_FOLDER"
+              cp -r $SOURCE_FOLDER/* $TARGET_FOLDER/
+              rm -rf $SOURCE_FOLDER
+            fi
+            
+            # 检查是否有文件变更
+            if git diff --quiet && git diff --staged --quiet; then
+              echo "没有检测到文件变更"
+            else
+              echo "检测到文件变更，准备提交"
+              git add $TARGET_FOLDER/
+              git commit -m "chore: sync $TARGET_FOLDER from upstream $(date +'%Y-%m-%d %H:%M:%S')"
+              git push origin main
+              echo "同步完成并已推送"
+            fi
+          else
+            echo "错误: 上游仓库中未找到文件夹 '$SOURCE_FOLDER'"
+            exit 1
+          fi
+          
+          # 清理远程仓库引用
+          git remote remove upstream
+
+      # 步骤4: 错误处理
+      - name: Error handling
+        if: failure()
+        run: |
+          echo "[错误] 文件夹同步失败"
+          echo "可能的原因:"
+          echo "1. 上游仓库不存在或无法访问"
+          echo "2. 指定的文件夹在上游仓库中不存在"
+          echo "3. Git操作权限不足"
+          echo "请检查工作流日志获取详细信息"
